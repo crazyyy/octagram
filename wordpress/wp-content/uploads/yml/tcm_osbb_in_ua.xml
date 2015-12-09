@@ -1,0 +1,3262 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2015-09-30 10:03">
+<shop>
+<name>Октаграм</name>
+<company>Октаграм</company>
+<url>http://tcm.osbb.in.ua</url>
+<agency>Октаграм</agency>
+<email>Sales@octagram.ru</email>
+<currencies>
+  <currency id="RUB" rate="1"/>
+</currencies>
+<categories>
+  <category id="156">A1-platform</category>
+  <category id="157">IP концентраторы, пульт управления</category>
+  <category id="158">Адресные модули, микромодули и датчики</category>
+  <category id="159">Дополнительное оборудование</category>
+  <category id="160">Источники питания</category>
+  <category id="161">Комплекты оборудования</category>
+  <category id="162">Контроллер A1</category>
+  <category id="163" parentId="162">Контроллеры для автоматизации и безопасности</category>
+  <category id="164" parentId="162">Контроллеры для отеля</category>
+  <category id="165" parentId="162">Контроллеры СКУД</category>
+  <category id="166" parentId="165">Контроллеры СКУД 2 ДВЕРИ</category>
+  <category id="167" parentId="165">Контроллеры СКУД ВОРОТА с управлением светофором</category>
+  <category id="168" parentId="165">Контроллеры СКУД ДВЕРЬ</category>
+  <category id="169" parentId="165">Контроллеры СКУД ДВЕРЬ с блокировкой под охраной</category>
+  <category id="170" parentId="165">Контроллеры СКУД ДВЕРЬ с двойной идентификацией</category>
+  <category id="171" parentId="165">Контроллеры СКУД ДВЕРЬ с мотором</category>
+  <category id="172" parentId="165">Контроллеры СКУД до 32 дверей, шлагбаумов, ворот</category>
+  <category id="173" parentId="165">Контроллеры СКУД ЛИФТ</category>
+  <category id="174" parentId="165">Контроллеры СКУД ТУРНИКЕТ</category>
+  <category id="175" parentId="165">Контроллеры СКУД ТУРНИКЕТ с картоприемником</category>
+  <category id="176" parentId="165">Контроллеры СКУД ШЛЮЗ</category>
+  <category id="177" parentId="162">Приборы ОПС и АСПТ</category>
+  <category id="178" parentId="162">Универсальные контроллеры</category>
+  <category id="179">Контроллеры L</category>
+  <category id="180" parentId="179">Контроллеры СКУД</category>
+  <category id="181" parentId="180">Контроллеры СКУД ВОРОТА с управлением светофором</category>
+  <category id="182" parentId="180">Контроллеры СКУД ДВЕРЬ</category>
+  <category id="183" parentId="180">Контроллеры СКУД ДВЕРЬ с двойной идентификацией</category>
+  <category id="184" parentId="180">Контроллеры СКУД ЛИФТ</category>
+  <category id="185" parentId="180">Контроллеры СКУД ТУРНИКЕТ</category>
+  <category id="186" parentId="180">Контроллеры СКУД ТУРНИКЕТ с картоприемником</category>
+  <category id="187">Контроль действий персонала Ход-Тест</category>
+  <category id="188">Микропрограммы для A1</category>
+  <category id="189" parentId="188">Микропрограммы контроллеров СКУД</category>
+  <category id="190" parentId="189">Микропрограммы для контроллера СКУД ДВЕРЬ с мотором</category>
+  <category id="191" parentId="189">Микропрограммы СКУД 2 ДВЕРИ</category>
+  <category id="192" parentId="189">Микропрограммы СКУД ВОРОТА со светофором</category>
+  <category id="193" parentId="189">Микропрограммы СКУД ДВЕРЬ</category>
+  <category id="194" parentId="189">Микропрограммы СКУД ДВЕРЬ с блокировкой под охраной</category>
+  <category id="195" parentId="189">Микропрограммы СКУД ДВЕРЬ с двойной идентификацией</category>
+  <category id="196" parentId="189">Микропрограммы СКУД до 32 дверей</category>
+  <category id="197" parentId="189">Микропрограммы СКУД ЛИФТ</category>
+  <category id="198" parentId="189">Микропрограммы СКУД ТУРНИКЕТ</category>
+  <category id="199" parentId="189">Микропрограммы СКУД ТУРНИКЕТ с картоприемником</category>
+  <category id="200" parentId="189">Микропрограммы СКУД ШЛЮЗ</category>
+  <category id="201" parentId="188">Микропрограммы контроллеров СКУД до 32 дверей, шлагбаумов, ворот</category>
+  <category id="202" parentId="188">Микропрограммы ОПС и АПТ</category>
+  <category id="203" parentId="188">Микропрограммы универсальные</category>
+  <category id="204">Приборы ОПС и АСПТ</category>
+  <category id="205">Программное обеспечение Octagram Flex</category>
+  <category id="206">Сертификаты</category>
+  <category id="207">Считыватели</category>
+</categories>
+<offers>
+<offer id="3581" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/test-tovar/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>157</categoryId>
+<picture></picture>
+<typePrefix>IP концентраторы, пульт управления</typePrefix>
+<vendor>Октаграм</vendor>
+<model> тест товар </model>
+<description>краткое описание товара
+</description>
+</offer>
+<offer id="3390" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/platforma-a1/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>156</categoryId>
+<picture></picture>
+<typePrefix>A1-platform</typePrefix>
+<vendor>Октаграм</vendor>
+<model> Платформа A1 - один контроллер для всех задач </model>
+<description>
+</description>
+</offer>
+<offer id="3368" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-64-16000-octagram-flex-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL 64/16000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="3338" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dgro-suhoy-kontakt-releynyiy-mikromodul-compaund/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DGRO - "сухой контакт" (релейный микромодуль) с контролем - в компаунде </model>
+<description>
+</description>
+</offer>
+<offer id="3330" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/pb8-silovoy-blok-pitaniya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>160</categoryId>
+<picture></picture>
+<typePrefix>Источники питания</typePrefix>
+<vendor>Октаграм</vendor>
+<model> PB8 - силовой блок питания </model>
+<description>
+</description>
+</offer>
+<offer id="3325" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l6f64-plata-kontrollera-adresnoy-ohranno-pozharnoy-signalizatsii-i-apt/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L6F64 - плата контроллера адресной охранно-пожарной сигнализации и АПТ </model>
+<description>
+</description>
+</offer>
+<offer id="3324" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l6f32-kontroller-ohranno-pozharnoy-signalizatsii-i-apt/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L6F32 - плата контроллера адресной охранно-пожарной сигнализации и АПТ </model>
+<description>
+</description>
+</offer>
+<offer id="3322" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5f64-plata-kontrollera-ohranno-pozharnoy-signalizatsii/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5F64 - плата контроллера адресной охранно-пожарной сигнализации </model>
+<description>
+</description>
+</offer>
+<offer id="3321" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5g32-plata-kontrollera-skud-vorota-s-upravleniem-svetoforom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5G32 - плата контроллера СКУД  ворота с управлением светофором </model>
+<description>
+</description>
+</offer>
+<offer id="3319" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5g04-plata-kontrollera-skud-vorota-svetofor/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5G04 - плата контроллера СКУД  ворота с управлением светофором </model>
+<description>
+</description>
+</offer>
+<offer id="3318" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5l32-plata-kontrollera-skud-lift-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5L32 - плата контроллера СКУД  лифт </model>
+<description>
+</description>
+</offer>
+<offer id="3316" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5l04-plata-kontrollera-skud-lift/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5L04 - плата контроллера СКУД  лифт </model>
+<description>
+</description>
+</offer>
+<offer id="3315" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5tc32-plata-kontrollera-skud-turniket-s-kartopriemnikom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5TC32 - плата контроллера СКУД  турникет с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="3314" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5tc04-plata-kontrollera-skud-turniket-kartopriemnik/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5TC04 - плата контроллера СКУД  турникет с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="3313" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5t32-plata-kontrollera-skud-turniket-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5T32 - плата контроллера СКУД  турникет </model>
+<description>
+</description>
+</offer>
+<offer id="3312" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5t04-plata-kontrollera-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5T04 - плата контроллера СКУД  турникет </model>
+<description>
+</description>
+</offer>
+<offer id="3311" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l4t32-kontroller-skud-turniket-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L4T32 - контроллер СКУД  турникет </model>
+<description>
+</description>
+</offer>
+<offer id="3310" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l4t16-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L4T16 - контроллер СКУД  турникет </model>
+<description>
+</description>
+</offer>
+<offer id="3309" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5d32p-plata-kontrollera-skud-dveri-shlagbauma-vorot-c-dvoynoy-identifikatsiey/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5D32P - плата контроллера СКУД  двери,  шлагбаума, ворот c двойной  идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="3306" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5d04p-plata-kontrollera-skud-dveri-shlagbauma-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5D04P - плата контроллера СКУД  двери,  шлагбаума, ворот c двойной  идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="3305" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5d32-plata-kontrollera-skud-dveri-shlagbauma-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5D32 - плата контроллера СКУД  двери,  шлагбаума, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3301" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l5d04-plata-kontrollera-skud-dveri-shlagbauma-vorot/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L5D04 - плата контроллера СКУД  двери,  шлагбаума, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3293" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l4d32-kontroller-skud-dveri-shlagbaum-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L4D32 - контроллер СКУД  двери,  шлагбаум, ворота </model>
+<description>
+</description>
+</offer>
+<offer id="3284" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l4d16-kontroller-skud-dverey-shlagbaum-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>179</categoryId>
+<picture></picture>
+<typePrefix>Контроллеры L</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L4D16 - контроллер СКУД  двери,  шлагбаум, ворота </model>
+<description>
+</description>
+</offer>
+<offer id="3282" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/du64-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DU64 - СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3281" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/du32-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DU32 - СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3280" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/du16-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DU16 - СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3279" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/du8-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DU8 - СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3278" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/du3-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DU3 - СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3277" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/du1-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DU1 - СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3275" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/du0-skud-dverey-shlagbauma-vorot-s-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DU0 - СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3273" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1du64-kontroller-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DU64 - контроллер СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3272" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1du32-kontroller-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DU32 - контроллер СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3271" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1du16-kontroller-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DU16 - контроллер СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3270" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1du8-kontroller-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DU8 - контроллер СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3269" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1du3-kontroller-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DU3 - контроллер СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3268" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1du1-kontroller-skud-dverey-shlagbauma-vorot-s-motornyim-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DU1 - контроллер СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3266" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1du0-kontroller-skud-dverey-shlagbaumf-vorot-s-zamkom/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DU0 - контроллер СКУД  дверей,  шлагбаума, ворот с моторным замком </model>
+<description>
+</description>
+</offer>
+<offer id="3262" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dm64-skud-do-32-dverey-shlagbaumov-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DM64 - СКУД (до 32) дверей, шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3261" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dm32-skud-do-32-dverey-shlagbaumov-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DM32 - СКУД (до 32) дверей, шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3260" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dm16-skud-do-32-dverey-shlagbaumov-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DM16 - СКУД (до 32) дверей, шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3259" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dm8-skud-do-32-dverey-shlagbaumov-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DM8 - СКУД (до 32) дверей, шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3258" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dm3-skud-do-32-dverey-shlagbaumov-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DM3 - СКУД (до 32) дверей, шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3257" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dm1-skud-do-32-dverey-shlagbaumov-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DM1 - СКУД (до 32) дверей, шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3255" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dm0-skud-do-32-dverey-shlagbaumov-vorot/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DM0 - СКУД (до 32) дверей, шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3254" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dm64-kontroller-skud-do-32-dverey-shlagbaumov-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DM64 - контроллер СКУД (до 32) дверей,  шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3253" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dm32-kontroller-skud-do-32-dverey-shlagbaumov-vorot/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DM32 - контроллер СКУД (до 32) дверей,  шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3252" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dm16-kontroller-skud-do-32-dverey-shlagbaumov-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DM16 - контроллер СКУД (до 32) дверей,  шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3251" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dm8-kontroller-skud-do-32-dverey-shlagbaumov-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DM8 - контроллер СКУД (до 32) дверей,  шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3250" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dm3-kontroller-skud-do-32-dverey-shlagbaumov-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DM3 - контроллер СКУД (до 32) дверей,  шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3249" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dm1-kontroller-skud-do-32-dverey-shlagbaumov-vorot-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DM1 - контроллер СКУД (до 32) дверей,  шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3245" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dm0-kontroller-skud-do-32-dverey-shlagbaumov-vorot/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DM0 - контроллер СКУД (до 32) дверей,  шлагбаумов, ворот </model>
+<description>
+</description>
+</offer>
+<offer id="3133" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ff-pribor-pozharnoy-signalizatsii-127-adresov/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1FF - прибор пожарной сигнализации (127 адресов) </model>
+<description>
+</description>
+</offer>
+<offer id="3034" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/f127-modul-rasshireniya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> F127 - модуль расширения </model>
+<description>
+</description>
+</offer>
+<offer id="3032" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/ip-212-189-o-adresnyiy-dyimovoy-izveschatel/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ИП 212-189-O - адресный дымовой извещатель </model>
+<description>
+</description>
+</offer>
+<offer id="3029" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/ipr-513-9-adresny-ruchnoy-pozharnyiy-izveshhatel/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ИПР 513-9 - адресный ручной пожарный извещатель </model>
+<description>
+</description>
+</offer>
+<offer id="3025" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/ip-101-34-a1-adresnyteplovoy-pozharnyiy-izveshhatel/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ИП 101-34-А1 - адресный тепловой пожарный извещатель </model>
+<description>
+</description>
+</offer>
+<offer id="3022" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/ip-212-83-pozharnyiy-izvesshatel/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ИП 212-83 - адресный дымовой извещатель </model>
+<description>
+</description>
+</offer>
+<offer id="3011" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/astra-4232-adresniy-pozharnyiy-izveshhatel/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> Астра 4232 - адресный пожарный извещатель </model>
+<description>
+</description>
+</offer>
+<offer id="2809" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/fb1-shkaf-pozharnoy-signalizatsii/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> FB1 - шкаф пожарной сигнализации </model>
+<description>
+</description>
+</offer>
+<offer id="2617" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/wmc-dopolnitelnyiy-chehol-dlya-kup/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>187</categoryId>
+<picture></picture>
+<typePrefix>Контроль действий персонала Ход-Тест</typePrefix>
+<vendor>Октаграм</vendor>
+<model> WMC - дополнительный чехол для КУП </model>
+<description>
+</description>
+</offer>
+<offer id="2614" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/cle-ht-udalennyiy-setevoy-schityivatel-informatsiircon-ht-litsenziya-na-1dopolnitelnoe-udalennoe-rabochee-mesto-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>187</categoryId>
+<picture></picture>
+<typePrefix>Контроль действий персонала Ход-Тест</typePrefix>
+<vendor>Октаграм</vendor>
+<model> CLE HT - удаленный сетевой считыватель информации </model>
+<description>
+</description>
+</offer>
+<offer id="2602" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/st-fr020em-schityivatel-otpechatkov-paltsev/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>207</categoryId>
+<picture></picture>
+<typePrefix>Считыватели</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ST-FR020EM считыватель отпечатков пальцев </model>
+<description>
+</description>
+</offer>
+<offer id="2595" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/karta-clamshell-s-prorezyu-standarta-em-marine/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> Карта Clamshell с прорезью стандарта EM Marine </model>
+<description>
+</description>
+</offer>
+<offer id="2593" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/rcon-ht-litsenziya-na-1dopolnitelnoe-udalennoe-rabochee-mesto/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>187</categoryId>
+<picture></picture>
+<typePrefix>Контроль действий персонала Ход-Тест</typePrefix>
+<vendor>Октаграм</vendor>
+<model> RCON ХТ - лицензия на 1 дополнительное удаленное рабочее место </model>
+<description>
+</description>
+</offer>
+<offer id="2592" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/swq-po-octagram-ms-sql-server-interfeysnyiy-shnur-tc6-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>187</categoryId>
+<picture></picture>
+<typePrefix>Контроль действий персонала Ход-Тест</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SWQ - ПО Octagram MS  SQL Server + интерфейсный шнур TC6 </model>
+<description>
+</description>
+</offer>
+<offer id="2589" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/swa-po-octagram-ms-access-interfeysnyiy-shnur-tc6/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>187</categoryId>
+<picture></picture>
+<typePrefix>Контроль действий персонала Ход-Тест</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SWA - ПО Octagram MS Access + интерфейсный шнур TC6 </model>
+<description>
+</description>
+</offer>
+<offer id="2586" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/cp-klyuch-touch-memory-ibutton-derzhatel/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>187</categoryId>
+<picture></picture>
+<typePrefix>Контроль действий персонала Ход-Тест</typePrefix>
+<vendor>Октаграм</vendor>
+<model> CP - ключ Touch Memory (iButton) + держатель </model>
+<description>
+</description>
+</offer>
+<offer id="2390" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/ht-kontrolno-uchetnyiy-pribor-hod-test/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>187</categoryId>
+<picture></picture>
+<typePrefix>Контроль действий персонала Ход-Тест</typePrefix>
+<vendor>Октаграм</vendor>
+<model> Ход-Тест - контрольно - учетный прибор </model>
+<description>
+</description>
+</offer>
+<offer id="2104" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/twt-preobrazovatel-interfeisa/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> TWT - преобразователь интерфейса Wiegand-26/Touch Memory </model>
+<description>
+</description>
+</offer>
+<offer id="2099" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/gc-plata-gprs-kanala-svyazi/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>157</categoryId>
+<picture></picture>
+<typePrefix>IP концентраторы, пульт управления</typePrefix>
+<vendor>Октаграм</vendor>
+<model> GC - плата GPRS канала связи </model>
+<description>
+</description>
+</offer>
+<offer id="1265" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/ips-lokalizator-korotkogozamikaniya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> IPS - локализатор короткого замыкания </model>
+<description>
+</description>
+</offer>
+<offer id="1263" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/cem-ip-kontsentrator/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>157</categoryId>
+<picture></picture>
+<typePrefix>IP концентраторы, пульт управления</typePrefix>
+<vendor>Октаграм</vendor>
+<model> CEM - IP концентратор </model>
+<description>
+</description>
+</offer>
+<offer id="1262" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/cemp-ip-kontsentrator-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>157</categoryId>
+<picture></picture>
+<typePrefix>IP концентраторы, пульт управления</typePrefix>
+<vendor>Октаграм</vendor>
+<model> CEMP - IP концентратор </model>
+<description>
+</description>
+</offer>
+<offer id="1209" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/ol3-omnilock-3-elektronnaya-nakladka-na-zamok/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> OL3 - Omnilock 3 - электронная накладка на дверной замок </model>
+<description>
+</description>
+</offer>
+<offer id="1204" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/aps1-adresnyiy-istochnik-pitaniya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>160</categoryId>
+<picture></picture>
+<typePrefix>Источники питания</typePrefix>
+<vendor>Октаграм</vendor>
+<model> APS1 - адресный источник питания </model>
+<description>
+</description>
+</offer>
+<offer id="1199" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/u2-avtomatizaciya-bezopasnost/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> U2 - автоматизация, безопасность </model>
+<description>
+</description>
+</offer>
+<offer id="1198" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/u1-avtomatizaciya-bezopasnost/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> U1 - автоматизация, безопасность </model>
+<description>
+</description>
+</offer>
+<offer id="1191" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/ma1-magistralni-usilitel/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> MA1 - магистральный усилитель </model>
+<description>
+</description>
+</offer>
+<offer id="1188" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/rc100-pult/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>157</categoryId>
+<picture></picture>
+<typePrefix>IP концентраторы, пульт управления</typePrefix>
+<vendor>Октаграм</vendor>
+<model> RC100 - пульт управления и индикации </model>
+<description>
+</description>
+</offer>
+<offer id="1149" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/emr-konverter-dlya-podklyucheniya-schityivatelya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> EMR - конвертер для подключения считывателя </model>
+<description>
+</description>
+</offer>
+<offer id="1147" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/emi-ispolnitelnyiy-adresnyiy-modul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> EMI - исполнительный адресный модуль </model>
+<description>
+</description>
+</offer>
+<offer id="912" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1f2-pozharnaya-signalizatsiya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> F2 - Пожарная сигнализация </model>
+<description>
+</description>
+</offer>
+<offer id="911" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1sfe2-ohranno-pozharnaya-signalizatsiya-c-upravleniem-pozharotusheniem/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SFE2 - Охранно-пожарная сигнализация и АСПТ </model>
+<description>
+</description>
+</offer>
+<offer id="910" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/h2-upravlenie/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> H2 - управление инженерным оборудованием и замком, сигнализация </model>
+<description>
+</description>
+</offer>
+<offer id="908" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/h1-upravlenie/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> H1 - управление инженерным оборудованием и замком, сигнализация </model>
+<description>
+</description>
+</offer>
+<offer id="836" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1sfe1-ohranno-pozharnaya-signalizatsiya-c-upravleniem-pozharotusheniem/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SFE1 - Охранно-пожарная сигнализация и АСПТ </model>
+<description>
+</description>
+</offer>
+<offer id="834" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1fe2-pozharnaya-signalizatsiya-c-upravleniem-pozharotusheniya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> FE2 - Пожарная сигнализация и АСПТ </model>
+<description>
+</description>
+</offer>
+<offer id="833" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1sf2-ohranno-pozharnaya-signalizatsiya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SF2 - Охранно-пожарная сигнализация </model>
+<description>
+</description>
+</offer>
+<offer id="831" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1sf1-ohranno-pozharnaya-signalizatsiya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SF1 - Охранно-пожарная сигнализация </model>
+<description>
+</description>
+</offer>
+<offer id="829" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1fe1-pozharnaya-signalizatsiya-c-upravleniem-pozharotusheniya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> FE1 - Пожарная сигнализация и АСПТ </model>
+<description>
+</description>
+</offer>
+<offer id="828" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1sf0-ohranno-pozharnaya-signalizatsiya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SF0 - Охранно-пожарная сигнализация </model>
+<description>
+</description>
+</offer>
+<offer id="827" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/f1-pozharnaya-signalizatsiya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> F1 - Пожарная сигнализация </model>
+<description>
+</description>
+</offer>
+<offer id="826" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1s2-ohrannaya-signalizatsiya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> S2 - Охранная сигнализация </model>
+<description>
+</description>
+</offer>
+<offer id="822" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1s1-ohrannaya-signalizatsiya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> S1 - Охранная сигнализация </model>
+<description>
+</description>
+</offer>
+<offer id="821" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g64-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> G64 - СКУД ВОРОТА, светофор </model>
+<description>
+</description>
+</offer>
+<offer id="820" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g32-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> G32 - СКУД ВОРОТА, светофор </model>
+<description>
+</description>
+</offer>
+<offer id="819" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g16-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> G16 - СКУД ВОРОТА, светофор </model>
+<description>
+</description>
+</offer>
+<offer id="818" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g8-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> G8 - СКУД ВОРОТА, светофор </model>
+<description>
+</description>
+</offer>
+<offer id="817" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g3-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> G3 - СКУД ВОРОТА, светофор </model>
+<description>
+</description>
+</offer>
+<offer id="805" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g1-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> G1 - СКУД ВОРОТА, светофор </model>
+<description>
+</description>
+</offer>
+<offer id="804" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1c64-skud-shluz/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> С64 - СКУД ШЛЮЗ </model>
+<description>
+</description>
+</offer>
+<offer id="803" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1c32-skud-shluz/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> С32 - СКУД ШЛЮЗ </model>
+<description>
+</description>
+</offer>
+<offer id="802" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1c16-skud-shluz/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> С16 - СКУД ШЛЮЗ </model>
+<description>
+</description>
+</offer>
+<offer id="800" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1l64-skud-lift/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L64 - СКУД ЛИФТ </model>
+<description>
+</description>
+</offer>
+<offer id="799" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1l32-skud-lift/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L32 - СКУД ЛИФТ </model>
+<description>
+</description>
+</offer>
+<offer id="798" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1l16-skud-lift/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L16 - СКУД ЛИФТ </model>
+<description>
+</description>
+</offer>
+<offer id="797" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1c1-skud-shluz/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> С1 - СКУД ШЛЮЗ </model>
+<description>
+</description>
+</offer>
+<offer id="795" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1l1-skud-lift/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L1 - СКУД ЛИФТ </model>
+<description>
+</description>
+</offer>
+<offer id="794" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc64-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ТС64 - СКУД турникет с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="793" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc32-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ТС32 - СКУД турникет с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="792" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc16-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ТС16 - СКУД турникет с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="791" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc8-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ТС8 - СКУД турникет с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="790" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc3-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ТС3 - СКУД турникет с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="788" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t32-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> Т32 - СКУД турникет </model>
+<description>
+</description>
+</offer>
+<offer id="787" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t64-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> Т64 - СКУД турникет </model>
+<description>
+</description>
+</offer>
+<offer id="786" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t16-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> Т16 - СКУД турникет </model>
+<description>
+</description>
+</offer>
+<offer id="785" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t8-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> Т8 - СКУД турникет </model>
+<description>
+</description>
+</offer>
+<offer id="784" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t3-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> Т3 - СКУД турникет </model>
+<description>
+</description>
+</offer>
+<offer id="756" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc1-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ТС1 - СКУД турникет с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="755" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t1-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> Т1 - СКУД турникет </model>
+<description>
+</description>
+</offer>
+<offer id="754" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p64-skud/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> P64 - СКУД с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="753" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p32-skud/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> P32 - СКУД с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="752" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p16-skud/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> P16 - СКУД с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="751" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p8-skud/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> P8 - СКУД с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="750" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p3-skud/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> P3 - СКУД с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="749" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p1-skud/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> P1 - СКУД с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="748" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd16-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DD16 - СКУД две двери </model>
+<description>
+</description>
+</offer>
+<offer id="747" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd32-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DD32 -  СКУД две двери </model>
+<description>
+</description>
+</offer>
+<offer id="746" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd8-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DD8 - СКУД две двери </model>
+<description>
+</description>
+</offer>
+<offer id="745" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd3-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DD3 - СКУД две двери </model>
+<description>
+</description>
+</offer>
+<offer id="744" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd1-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DD1 - СКУД две двери </model>
+<description>
+</description>
+</offer>
+<offer id="743" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd64-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DD64 - СКУД две двери </model>
+<description>
+</description>
+</offer>
+<offer id="741" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd0-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DD0 - СКУД  две двери </model>
+<description>
+</description>
+</offer>
+<offer id="738" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds64-skud/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DS64 - СКУД  с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="737" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds32-skud-s-blokirovkoy/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DS32 - СКУД с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="736" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds16-skud-s-blokirovkoy/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DS16 - СКУД с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="735" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds8-skud-s-blokirovkoy/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DS8 - СКУД с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="734" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds3-skud-s-blokirovkoy/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DS3 - СКУД с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="733" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds1-skud-s-blokirovkoy/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DS1 - СКУД с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="732" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d64-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> D64 - СКУД дверь </model>
+<description>
+</description>
+</offer>
+<offer id="731" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d32-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> D32 - СКУД дверь </model>
+<description>
+</description>
+</offer>
+<offer id="730" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d16-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> D16 - СКУД дверь </model>
+<description>
+</description>
+</offer>
+<offer id="729" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d8-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> D8 -  СКУД дверь </model>
+<description>
+</description>
+</offer>
+<offer id="727" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d3-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> D3 - СКУД дверь </model>
+<description>
+</description>
+</offer>
+<offer id="726" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d1-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> D1 - СКУД дверь </model>
+<description>
+</description>
+</offer>
+<offer id="724" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d0-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>188</categoryId>
+<picture></picture>
+<typePrefix>Микропрограммы для A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> D0 - СКУД дверь </model>
+<description>
+</description>
+</offer>
+<offer id="712" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/klu-usb-kluch/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>157</categoryId>
+<picture></picture>
+<typePrefix>IP концентраторы, пульт управления</typePrefix>
+<vendor>Октаграм</vendor>
+<model> KLU </model>
+<description>
+</description>
+</offer>
+<offer id="711" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/slemp-ip-kontsentrator/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>157</categoryId>
+<picture></picture>
+<typePrefix>IP концентраторы, пульт управления</typePrefix>
+<vendor>Октаграм</vendor>
+<model> СLEMP - IP концентратор </model>
+<description>
+</description>
+</offer>
+<offer id="709" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/clem-ip-kontsentrator/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>157</categoryId>
+<picture></picture>
+<typePrefix>IP концентраторы, пульт управления</typePrefix>
+<vendor>Октаграм</vendor>
+<model> CLEM - IP концентратор </model>
+<description>
+</description>
+</offer>
+<offer id="707" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l3em-ip-kontsentrator/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>157</categoryId>
+<picture></picture>
+<typePrefix>IP концентраторы, пульт управления</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L3EM - IP концентратор </model>
+<description>
+</description>
+</offer>
+<offer id="674" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1h2-upravlenie-kontroller/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1H2 - управление инженерным оборудованием и замком, сигнализация (контроллер) </model>
+<description>
+</description>
+</offer>
+<offer id="666" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1sfe2-pribor-ohranno-pozharnoy-signalizatsii-i-apt/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1SFE2 - прибор охранно-пожарной сигнализации и АПТ </model>
+<description>
+</description>
+</offer>
+<offer id="665" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1fe2-pribor-pozharnoy-signalizatsi-i-apt/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1FE2 - прибор пожарной сигнализации и АПТ </model>
+<description>
+</description>
+</offer>
+<offer id="664" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1sf2-pribor-ohranno-pozharnoy-signalizatsii/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1SF2 - прибор охранно-пожарной сигнализации </model>
+<description>
+</description>
+</offer>
+<offer id="663" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1sf1-pribor-ohranno-pozharnoy-signalizatsii/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1SF1 - прибор охранно-пожарной сигнализации </model>
+<description>
+</description>
+</offer>
+<offer id="656" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1f2-pribor-pozharnoy-signalizatsii/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1F2 - прибор пожарной сигнализации </model>
+<description>
+</description>
+</offer>
+<offer id="653" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/pb10-blok-pitaniya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>160</categoryId>
+<picture></picture>
+<typePrefix>Источники питания</typePrefix>
+<vendor>Октаграм</vendor>
+<model> PB10 - адресный блок питания </model>
+<description>
+</description>
+</offer>
+<offer id="649" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dhv10-releyni-adresniy-modul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DHV10 - релейный адресный модуль </model>
+<description>
+</description>
+</offer>
+<offer id="641" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/touch-memory-ktn-nakladnoy-schityivatel-dlya-klyuchey/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>207</categoryId>
+<picture></picture>
+<typePrefix>Считыватели</typePrefix>
+<vendor>Октаграм</vendor>
+<model> TouchMemory КТН + - накладной считыватель для ключей </model>
+<description>
+</description>
+</offer>
+<offer id="638" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/at-h801b-knopka-vyihoda-vreznaya/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> AT-H801B - кнопка выхода врезная </model>
+<description>
+</description>
+</offer>
+<offer id="636" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/sb1-knopka-vyihoda/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>159</categoryId>
+<picture></picture>
+<typePrefix>Дополнительное оборудование</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SB1 - кнопка выхода накладная </model>
+<description>
+</description>
+</offer>
+<offer id="607" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/plr3ehd-schityivatel-proximity-kart/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>207</categoryId>
+<picture></picture>
+<typePrefix>Считыватели</typePrefix>
+<vendor>Октаграм</vendor>
+<model> PLR3EHD - считыватель proximity карт </model>
+<description>
+</description>
+</offer>
+<offer id="603" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/lac-kontrol-osveshennosti-mikromodul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> LAC — контроль освещенности (микромодуль) </model>
+<description>
+</description>
+</offer>
+<offer id="601" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dlt-kommutaciya-i-kontrol-mikromodul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DLT - коммутация и контроль (микромодуль) </model>
+<description>
+</description>
+</offer>
+<offer id="599" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dlr-kontrol-napryajeniya-mikromodul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DLR - контроль напряжения (микромодуль) </model>
+<description>
+</description>
+</offer>
+<offer id="595" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dlv-kontrol-napryajeniya-mikromodul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DLV - контроль напряжения (микромодуль) </model>
+<description>
+</description>
+</offer>
+<offer id="593" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dgt-kontrol-suhih-kontaktov-mikromodul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DGT - контроль "сухих контактов" (микромодуль) </model>
+<description>
+</description>
+</offer>
+<offer id="590" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dgr-suhoy-kontakt-releyni-mikromodul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DGR - "сухой контакт" (релейный микромодуль) с контролем </model>
+<description>
+</description>
+</offer>
+<offer id="585" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dgv-mikromodul-kontrolya-suhih-kontaktov/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DGV - контроль "сухих контактов" (микромодуль) </model>
+<description>
+</description>
+</offer>
+<offer id="582" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dtr-interfeis-schityvatelya-mikromodul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DTR - интерфейс считывателя </model>
+<description>
+</description>
+</offer>
+<offer id="579" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/plr2md-schityivatel-proximity-kart/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>207</categoryId>
+<picture></picture>
+<typePrefix>Считыватели</typePrefix>
+<vendor>Октаграм</vendor>
+<model> PLR2MD - считыватель proximity карт </model>
+<description>
+</description>
+</offer>
+<offer id="577" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/tmp-kontrol-temperatury-mikromodul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> TMP - контроль температуры (микромодуль) </model>
+<description>
+</description>
+</offer>
+<offer id="575" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/hmd-kontrol-vlajnosti-mikromodul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> HMD - контроль влажности (микромодуль) </model>
+<description>
+</description>
+</offer>
+<offer id="573" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/fire-kontrol-pojarnogo-shleifa-mikromodul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> FIRE - контроль пожарного шлейфа (микромодуль) </model>
+<description>
+</description>
+</offer>
+<offer id="570" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/dif-kontrolya-ohrannogo-shleifa-mikromodul/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>158</categoryId>
+<picture></picture>
+<typePrefix>Адресные модули, микромодули и датчики</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DIF - контроль охранного шлейфа (микромодуль) </model>
+<description>
+</description>
+</offer>
+<offer id="568" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/ch2eh-schityivatel-proximity-kart/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>207</categoryId>
+<picture></picture>
+<typePrefix>Считыватели</typePrefix>
+<vendor>Октаграм</vendor>
+<model> CH2EH - считыватель proximity карт </model>
+<description>
+</description>
+</offer>
+<offer id="565" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/z2-schityivatel-proximity-kart/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>207</categoryId>
+<picture></picture>
+<typePrefix>Считыватели</typePrefix>
+<vendor>Октаграм</vendor>
+<model> Z2 - считыватель proximity карт </model>
+<description>
+</description>
+</offer>
+<offer id="563" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/plr2m-schityivatel-proximity-kart/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>207</categoryId>
+<picture></picture>
+<typePrefix>Считыватели</typePrefix>
+<vendor>Октаграм</vendor>
+<model> PLR2MG - считыватель proximity карт </model>
+<description>
+</description>
+</offer>
+<offer id="559" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-above-128-128000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL above 128/128000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="558" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-above-128-less-128000-octagram-flex-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL above 128/ less 128000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="556" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-above-128-64000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL above 128/64000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="555" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-above-128-32000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL above 128/32000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="553" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-128-128000-2-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL 128/128000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="548" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/rcon-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> RCON - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="546" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-128-128000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL above 128/128000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="544" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-128-64000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL 128/64000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="542" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-128-32000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL 128/32000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="540" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-128-4000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL 128/4000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="539" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-64-32000-2-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL above 64/32000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="538" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-64-32000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL 64/32000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="537" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/super-sql-64-4000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> SUPER SQL 64/4000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="536" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/lux-64-3000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> LUX 64/3000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="535" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/lux-64-1000-octagram-flex-lux-64-1000/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> LUX 64/1000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="533" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/lux-32-3000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> LUX 32/3000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="531" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/lux-32-1000-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> LUX 32/1000 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="530" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/eco-complex-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ECO complex - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="529" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/eco-alarm-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ECO alarm - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="478" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/class-500-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> CLASS 500 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="477" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/class-150-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> CLASS 150 - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="474" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1s2-pribor-ohrannoy-signalizacii/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1S2 - прибор охранной сигнализации </model>
+<description>
+</description>
+</offer>
+<offer id="461" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1h1-upravlenie-kontroller/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1H1 - управление инженерным оборудованием и замком, сигнализация (контроллер) </model>
+<description>
+</description>
+</offer>
+<offer id="459" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1sfe1-kontroller-ohranno-pozharnoy-signalizatsii-i-apt/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1SFE1 - прибор охранно-пожарной сигнализации и АПТ </model>
+<description>
+</description>
+</offer>
+<offer id="452" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1fe1-pribor-pozharnoy-signalizatsi-i-apt/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1FE1 - прибор пожарной сигнализации и АПТ </model>
+<description>
+</description>
+</offer>
+<offer id="450" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1sf0-pribor-ohranno-pozharnoy-signalizatsii/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1SF0 - прибор охранно-пожарной сигнализации </model>
+<description>
+</description>
+</offer>
+<offer id="448" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1f1-pribor-pozharnoy-signalizatsii/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1F1 - прибор пожарной сигнализации </model>
+<description>
+</description>
+</offer>
+<offer id="444" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/eco-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> ECO access - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="441" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/demo-octagram-flex/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>205</categoryId>
+<picture></picture>
+<typePrefix>Программное обеспечение Octagram Flex</typePrefix>
+<vendor>Октаграм</vendor>
+<model> DEMO - Octagram Flex </model>
+<description>
+</description>
+</offer>
+<offer id="439" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1s1-pribor-ohrannoy-signalizacii/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1S1 - прибор охранной сигнализации </model>
+<description>
+</description>
+</offer>
+<offer id="429" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g32-2-kontroller-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1G32 - контроллер СКУД ВОРОТА с управлением светофором </model>
+<description>
+</description>
+</offer>
+<offer id="428" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g64-kontroller-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>0</categoryId>
+<picture></picture>
+<typePrefix></typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1G64 - контроллер СКУД ВОРОТА с управлением светофором </model>
+<description>
+</description>
+</offer>
+<offer id="427" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g16-kontroller-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1G16 - контроллер СКУД ВОРОТА с управлением светофором </model>
+<description>
+</description>
+</offer>
+<offer id="426" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g8-kontroller-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1G8 - контроллер СКУД ВОРОТА с управлением светофором </model>
+<description>
+</description>
+</offer>
+<offer id="425" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g3-kontroller-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1G3 - контроллер СКУД ВОРОТА с управлением светофором </model>
+<description>
+</description>
+</offer>
+<offer id="424" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1c64-kontroller-skud-shluz/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1C64 - контроллер СКУД ШЛЮЗ </model>
+<description>
+</description>
+</offer>
+<offer id="423" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1c32-kontroller-skud-shluz/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1C32 - контроллер СКУД ШЛЮЗ </model>
+<description>
+</description>
+</offer>
+<offer id="422" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1c16-kontroller-skud-shluz/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1C16 - контроллер СКУД ШЛЮЗ </model>
+<description>
+</description>
+</offer>
+<offer id="421" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1l64-kontroller-skud-lift/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1L64 - контроллер СКУД ЛИФТ </model>
+<description>
+</description>
+</offer>
+<offer id="420" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1l32-kontroller-skud-lift/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1L32 - контроллер СКУД ЛИФТ </model>
+<description>
+</description>
+</offer>
+<offer id="419" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1l16-kontroller-skud-lift/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1L16 - контроллер СКУД ЛИФТ </model>
+<description>
+</description>
+</offer>
+<offer id="414" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc64-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1TC64 - контроллер СКУД ТУРНИКЕТ с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="413" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc32-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1TC32 - контроллер СКУД ТУРНИКЕТ с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="412" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc16-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1TC16 - контроллер СКУД ТУРНИКЕТ с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="411" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc8-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1TC8 - контроллер СКУД ТУРНИКЕТ с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="410" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc3-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1TC3 - контроллер СКУД ТУРНИКЕТ с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="409" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t64-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1T64 - контроллер СКУД ТУРНИКЕТ </model>
+<description>
+</description>
+</offer>
+<offer id="408" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t32-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1T32 - контроллер СКУД ТУРНИКЕТ </model>
+<description>
+</description>
+</offer>
+<offer id="407" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t16-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1T16 - контроллер СКУД ТУРНИКЕТ </model>
+<description>
+</description>
+</offer>
+<offer id="406" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t8-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1T8 - контроллер СКУД ТУРНИКЕТ </model>
+<description>
+</description>
+</offer>
+<offer id="405" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t3-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1T3 - контроллер СКУД ТУРНИКЕТ </model>
+<description>
+</description>
+</offer>
+<offer id="402" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p64-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1P64 - контроллер СКУД ДВЕРЬ с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="401" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p32-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1P32 - контроллер СКУД ДВЕРЬ с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="400" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p16-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1P16 - контроллер СКУД ДВЕРЬ с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="399" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p3-3-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1P3 - контроллер СКУД ДВЕРЬ с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="398" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p8-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1P8 - контроллер СКУД ДВЕРЬ с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="396" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd64-kontroller-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DD64 - контроллер СКУД 2 ДВЕРИ </model>
+<description>
+</description>
+</offer>
+<offer id="395" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd32-kontroller-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DD32 - контроллер СКУД 2 ДВЕРИ </model>
+<description>
+</description>
+</offer>
+<offer id="393" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd16-kontroller-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DD16 - контроллер СКУД 2 ДВЕРИ </model>
+<description>
+</description>
+</offer>
+<offer id="392" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd8-kontroller-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DD8 - контроллер СКУД 2 ДВЕРИ </model>
+<description>
+</description>
+</offer>
+<offer id="391" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd3-kontroller-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DD3 - контроллер СКУД 2 ДВЕРИ </model>
+<description>
+</description>
+</offer>
+<offer id="390" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd1-kontroller-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DD1 - контроллер СКУД 2 ДВЕРИ </model>
+<description>
+</description>
+</offer>
+<offer id="388" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds64-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DS64 - контроллер СКУД ДВЕРЬ с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="386" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds32-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DS32 - контроллер СКУД ДВЕРЬ с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="385" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds16-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DS16 - контроллер СКУД ДВЕРЬ с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="383" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds8-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DS8 - контроллер СКУД ДВЕРЬ с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="380" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds3-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DS3 - контроллер СКУД ДВЕРЬ с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="377" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1g1-kontroller-skud-vorota/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1G1 - контроллер СКУД ВОРОТА с управлением светофором </model>
+<description>
+</description>
+</offer>
+<offer id="374" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1c1-kontroller-skud-shluz/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1C1 - контроллер СКУД ШЛЮЗ </model>
+<description>
+</description>
+</offer>
+<offer id="345" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1l1-kontroller-skud-lift/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1L1 - контроллер СКУД ЛИФТ </model>
+<description>
+</description>
+</offer>
+<offer id="344" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1tc1-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1TC1 - контроллер СКУД ТУРНИКЕТ с картоприемником </model>
+<description>
+</description>
+</offer>
+<offer id="342" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1t1-kontroller-skud-turniket/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1T1 - контроллер СКУД ТУРНИКЕТ </model>
+<description>
+</description>
+</offer>
+<offer id="337" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1p1-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1P1 - контроллер СКУД ДВЕРЬ с двойной идентификацией </model>
+<description>
+</description>
+</offer>
+<offer id="336" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1ds1-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DS1 - контроллер СКУД ДВЕРЬ с блокировкой под охраной </model>
+<description>
+</description>
+</offer>
+<offer id="334" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1u2-universalnyiy-kontroller/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1U2 - контроль и управление: доступом, ОПС, автоматикой (контроллер) </model>
+<description>
+</description>
+</offer>
+<offer id="332" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/l3u-universalnyiy-kontroller/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>178</categoryId>
+<picture></picture>
+<typePrefix>Универсальные контроллеры</typePrefix>
+<vendor>Октаграм</vendor>
+<model> L3U - универсальный контроллер </model>
+<description>
+</description>
+</offer>
+<offer id="331" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1u1-universalnyiy-kontroller/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1U1 - контроль и управление: доступом, ОПС, автоматикой (контроллер) </model>
+<description>
+</description>
+</offer>
+<offer id="329" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d64-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1D64 - контроллер СКУД  ДВЕРЬ </model>
+<description>
+</description>
+</offer>
+<offer id="328" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d32-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1D32 - контроллер СКУД ДВЕРЬ </model>
+<description>
+</description>
+</offer>
+<offer id="321" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d1-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1D1 - контроллер СКУД ДВЕРЬ </model>
+<description>
+</description>
+</offer>
+<offer id="320" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d16-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1D16 - контроллер СКУД ДВЕРЬ </model>
+<description>
+</description>
+</offer>
+<offer id="317" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d8-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1D8 - контроллер СКУД ДВЕРЬ </model>
+<description>
+</description>
+</offer>
+<offer id="310" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d3-kontroller-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1D3 - контроллер СКУД ДВЕРЬ </model>
+<description>
+</description>
+</offer>
+<offer id="309" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1dd0-kontroller-skud-2-dveri/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1DD0 - контроллер СКУД 2 ДВЕРИ </model>
+<description>
+</description>
+</offer>
+<offer id="280" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/platforma-a1-2/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>0</categoryId>
+<picture></picture>
+<typePrefix></typePrefix>
+<vendor>Октаграм</vendor>
+<model> Платформа A1 - один контроллер для всех задач </model>
+<description>
+</description>
+</offer>
+<offer id="230" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/plr3ehg-schityivatel-proximity-kart/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>207</categoryId>
+<picture></picture>
+<typePrefix>Считыватели</typePrefix>
+<vendor>Октаграм</vendor>
+<model> PLR3EHG - считыватель proximity карт </model>
+<description>
+</description>
+</offer>
+<offer id="151" type="vendor.model" available="true">
+<url>http://tcm.osbb.in.ua/store/a1d0-kontrolleryi-skud-dver/</url>
+<price>0</price>
+<currencyId>RUB</currencyId>
+<categoryId>162</categoryId>
+<picture></picture>
+<typePrefix>Контроллер A1</typePrefix>
+<vendor>Октаграм</vendor>
+<model> A1D0 - контроллер СКУД ДВЕРЬ </model>
+<description>
+</description>
+</offer>
+</offers>
+</shop>
+</yml_catalog>

@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bg_yml_dump\n"
+"POT-Creation-Date: 2014-10-28 17:36+0100\n"
+"PO-Revision-Date: 2014-10-28 17:53+0100\n"
+"Last-Translator: sergios <tsg@bugalux.com>\n"
+"Language-Team: sergios <tsg@bugalux.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bg_yml_dump.php:50
+msgid "YML Dump"
+msgstr "Выгрузка в YML"
+
+#: bg_yml_dump.php:50
+msgid "Product YML Dump"
+msgstr "Выгрузка товаров в YML"
+
+#: bg_yml_dump.php:55
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У Вас нет достаточных прав для доступа к этой странице."
+
+#: bg_yml_dump.php:58
+msgid "Product YML Dump Settings"
+msgstr "Настройки выгрузки товаров в YML"
+
+#: bg_yml_dump.php:64
+msgid "Short Shop Name"
+msgstr "Короткое имя магазина"
+
+#: bg_yml_dump.php:68
+msgid "Company Name"
+msgstr "Название компании"
+
+#: bg_yml_dump.php:72
+msgid "Agency Name"
+msgstr "Название агентства Web-мастера"
+
+#: bg_yml_dump.php:76
+msgid "Contact email"
+msgstr "Эл. почта для контакта"
+
+#: bg_yml_dump.php:80
+msgid "Vendor"
+msgstr "Продавец"
