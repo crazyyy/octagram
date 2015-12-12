@@ -1,4 +1,8 @@
-<div id="down-buffer"></div></div>
+    </div><!-- /.inner -->
+  </section><!-- /section -->
+
+
+
 <footer><div class="content">
 <div id="copy"><?php $oct_key4 = get_option('oct_key4'); echo stripslashes($oct_key4); ?></div>
 <div id="contact-block">
@@ -23,20 +27,22 @@
 <div id="callback-thx"><div id="backformnew"></div><div class="myformnew3"><div class="titled1"><?php _e('We have received your request', 'octa'); ?><br> <?php _e('to call back,<br> wait for call our phone  +7 495 580-30-25', 'octa'); ?></div><div class="titled2"><?php _e('Thank you for<br>having chosen the company ', 'octa'); ?></div><img style="display: block;float: center; margin: auto;" src="http://www.octagram.ru/wp-content/themes/octagram/img/logotnx.png" width="160" height="40" border="0" alt=""><a class="closset1" onclick="getElementById('callback-thx').style.display='none'"><img src="http://www.octagram.ru/wp-content/themes/octagram/img/closet.png" width="12" height="12" border="0" alt=""></a></div></div>
 <div id="answer-thx"><div id="backformnew"></div><div class="myformnew3"><div class="titled1"><?php _e('We have received your question', 'octa'); ?><br> <?php _e('and respond to it as soon as possible', 'octa'); ?></div><div class="titled2"><?php _e('Thank you for<br>having chosen the company ', 'octa'); ?></div><img style="display: block;float: center; margin: auto;" src="http://www.octagram.ru/wp-content/themes/octagram/img/logotnx.png" width="160" height="40" border="0" alt=""><a class="closset1" onclick="getElementById('answer-thx').style.display='none'"><img src="http://www.octagram.ru/wp-content/themes/octagram/img/closet.png" width="12" height="12" border="0" alt=""></a></div></div>
 
+<div id="overlay-bg"></div>
+
 
 <?php $oct_key5 = get_option('oct_key5'); echo stripslashes($oct_key5); ?>
- 
+
 <?php wp_footer(); ?>
 <script src="/wp-content/themes/octagram/js/script.js"></script>
 <script type="text/javascript">
- $(document).ready(function(){
-            var tabs = $(".tab-menu").accessibleTabs({
-                tabhead:'h2',
-                fx:"fadeIn",
-                syncheights:true,
-                saveState:true
-            });
-        });
-	</script>
+ // $(document).ready(function(){
+ //    var tabs = $(".tab-menu").accessibleTabs({
+ //      tabhead:'h2',
+ //      fx:"fadeIn",
+ //      syncheights:true,
+ //      saveState:true
+ //    });
+ //  });
+</script>
 </body>
 </html>

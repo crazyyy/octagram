@@ -286,7 +286,7 @@ table {
 }
 hr {
   -moz-box-sizing: content-box;
-  box-sizing: content-box;
+       box-sizing: content-box;
   height: 0;
 }
 dfn {
@@ -408,5 +408,44 @@ img,
 object,
 video,
 .wp-caption {
+  max-width: 100%;
+}
+
+input[type='color'],
+input[type='date'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='email'],
+input[type='month'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='time'],
+input[type='url'],
+input[type='week'],
+textarea,
+select[multiple=multiple] {
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type='search'] {
+  appearance: none;
+}
+
+
+select {
+  width: auto;
   max-width: 100%;
 }

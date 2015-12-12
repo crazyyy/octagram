@@ -1,0 +1,79 @@
+ID,post_author,post_date,post_date_gmt,post_content,post_title,post_excerpt,post_status,comment_status,ping_status,post_password,post_name,to_ping,pinged,post_modified,post_modified_gmt,post_content_filtered,post_parent,guid,menu_order,post_type,post_mime_type,comment_count,product_type,backorders,featured,length,manage_stock,price,product_url,purchase_note,regular_price,sale_price,shipping_class,sku,sold_individually,stock,stock_status,tax_class,tax_status,total_sales,virtual,visibility,weight,height,width,product_gallery,product_gallery_name,featured_image,featured_image_name,default_attributes,category,tags,attributes,variations
+183,1,"2014-08-25 23:54:26","2014-08-25 19:54:26",,44,,publish,closed,closed,,44,,,"2014-08-25 23:54:26","2014-08-25 19:54:26",,0,http://octagram.eu/?post_type=product&#038;p=183,0,product,,0,simple,no,no,,no,100,,,,,,,,,instock,,,0,no,visible,,,,,,,,-optsii->optsiya-2,,,,"�п опции->1->1"
+23,1,"2014-08-21 21:51:40","2014-08-21 17:51:40","<div id=""comp_c8dc28d5e37d55868f05b1651e990e78"" style=""color: #646464;"">
+<div class=""catalog-element"">
+<div class=""catalog-element-left"">
+<table border=""0"" width=""100%"" cellspacing=""0"" cellpadding=""2"">
+<tbody>
+<tr>
+<td valign=""top"" width=""0%""><img id=""image_2161"" title=""Контроллер СКУД A1D1"" src=""http://www.octagram.ru.images.1c-bitrix-cdn.ru/upload/iblock/234/A1.png?1368604654163004"" alt=""Контроллер СКУД A1D1"" width=""200"" height=""200"" border=""0"" /></td>
+<td valign=""top"" width=""100%"">Универсальный контроллер A1 с предустановленной прошивкой D1 (дверь, шлагбаум, ворота), 1000 пользователей, 64000 пользователей/событий, 64 расписания, 11 типов доступа, 3 врем. инт/сутки, Antipassback, 2 датчика прохода, 2 х НО/НЗ, режим аварийного открывания</td>
+</tr>
+</tbody>
+</table>
+<b class=""orange_head"" style=""color: #ff9900;"">Спецификация</b>
+<div class=""custom-logical-table-wrapper"">
+<table class=""custom-logical-table table-top-space table-borders"" width=""100%"">
+<tbody>
+<tr>
+<td>Тип оборудования:</td>
+<td>контроллер СКУД</td>
+</tr>
+<tr>
+<td>Количество расписаний:</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Типов доступа:</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Временных интервалов:</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Antipassback:</td>
+<td>ДА</td>
+</tr>
+<tr>
+<td>Контроль датчиков прохода:</td>
+<td>да</td>
+</tr>
+<tr>
+<td>Количество ключей/событий:</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Тип идентификаторов:</td>
+<td>Proximity</td>
+</tr>
+<tr>
+<td>НО/НЗ реле:</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Напряжение питания:</td>
+<td>12B</td>
+</tr>
+<tr>
+<td>Корпус:</td>
+<td>АБС пластик</td>
+</tr>
+<tr>
+<td>Блок питания:</td>
+<td>нет</td>
+</tr>
+<tr>
+<td>Габаритные размеры:</td>
+<td>95 х 90 х 48</td>
+</tr>
+<tr>
+<td>Видеоидентификация:</td>
+<td>Да</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>","Контроллер СКУД A1D1",,publish,closed,closed,,kontroller-skud-a1d1,,,"2014-08-21 21:57:01","2014-08-21 17:57:01",,0,http://octagram.eu/?post_type=product&#038;p=23,0,product,,0,simple,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

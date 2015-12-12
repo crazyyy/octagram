@@ -16,4 +16,19 @@
 }
 }());
 
-// Place any jQuery/helper plugins in here.
+// search form in header
+$( '.open-search' ).on( 'click', function() {
+  $(this).toggleClass('open-search-opened');
+  $('#searchform').toggleClass('searchform-show');
+});
+
+$( '.close-search' ).on( 'click', function() {
+  $('.open-search').toggleClass('open-search-opened');
+  $('#searchform').toggleClass('searchform-show');
+});
+
+// video lightbox
+$( '#presentation a' ).on( 'click', function() {
+  $('#bg-black').css({ 'display': "block" });
+  $('#video-div').css({ 'display': "block" });
+});
