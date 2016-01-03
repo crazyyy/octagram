@@ -48,10 +48,6 @@ function wpeHeaderScripts() {
     wp_enqueue_script('modernizr'); // Enqueue it!
 
     //  Load footer scripts (footer.php)
-    wp_register_script('tempsrt', get_template_directory_uri() . '/js/accounting.min.js', array(), '1.0.0', true); // Custom scripts
-    wp_enqueue_script('tempsrt'); // Enqueue it!
-
-    //  Load footer scripts (footer.php)
     wp_register_script('wpeScripts', get_template_directory_uri() . '/js/scripts.js', array(), '1.0.0', true); // Custom scripts
     wp_enqueue_script('wpeScripts'); // Enqueue it!
   }
@@ -64,6 +60,23 @@ function my_remove_recent_comments_style() {
     $wp_widget_factory->widgets['WP_Widget_Recent_Comments'],
     'recent_comments_style'
   ));
+}
+
+// Add page slug to body class, love this - Credit: Starkers Wordpress Theme
+function add_slug_to_body_class($classes) {
+  global $post;
+  if (is_home()) {
+    $key = array_search('blog', $classes);
+    if ($key > -1) {
+      unset($classes[$key]);
+    }
+  } elseif (is_page()) {
+    $classes[] = sanitize_html_class($post->post_name);
+  } elseif (is_singular()) {
+    $classes[] = sanitize_html_class($post->post_name);
+  }
+
+  return $classes;
 }
 
 add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
@@ -83,6 +96,29 @@ add_filter('show_admin_bar', 'remove_admin_bar'); // Remove Admin bar
 // Remove Admin bar
 function remove_admin_bar() {
   return false;
+}
+function disable_wp_emojicons() {
+
+  // all actions related to emojis
+  remove_action( 'admin_print_styles', 'print_emoji_styles' );
+  remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+  remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+  remove_action( 'wp_print_styles', 'print_emoji_styles' );
+  remove_filter( 'wp_mail', 'wp_staticize_emoji_for_email' );
+  remove_filter( 'the_content_feed', 'wp_staticize_emoji' );
+  remove_filter( 'comment_text_rss', 'wp_staticize_emoji' );
+
+  // filter to remove TinyMCE emojis
+  add_filter( 'tiny_mce_plugins', 'disable_emojicons_tinymce' );
+}
+add_action( 'init', 'disable_wp_emojicons' );
+
+function disable_emojicons_tinymce( $plugins ) {
+  if ( is_array( $plugins ) ) {
+    return array_diff( $plugins, array( 'wpemoji' ) );
+  } else {
+    return array();
+  }
 }
 
 add_filter('post_thumbnail_html', 'remove_thumbnail_dimensions', 10); // Remove width and height dynamic attributes to thumbnails
@@ -120,6 +156,25 @@ function filter_media_comment_status( $open, $post_id ) {
   return $open;
 }
 
+/*
+  Individual css class for each tag in wp_tag_cloud
+  http://wordpress.stackexchange.com/questions/62201/individual-css-class-for-each-tag-in-wp-tag-cloud
+ */
+add_filter ( 'wp_tag_cloud', 'tag_cloud_font_size_class' );
+function tag_cloud_font_size_class( $taglinks ) {
+  $tags = explode('</a>', $taglinks);
+  $regex1 = "#(.*style='font-size:)(.*)((pt|px|em|pc|%);'.*)#e";
+  $regex2 = "#(style='font-size:)(.*)((pt|px|em|pc|%);')#e";
+  $regex3 = "#(.*class=')(.*)(' title.*)#e";
+  foreach( $tags as $tag ) {
+    $size = preg_replace($regex1, "(''.round($2).'')", $tag ); //get the rounded font size
+    $tag = preg_replace($regex2, "('')", $tag ); //remove the inline font-size style
+    $tag = preg_replace($regex3, "('$1tag-size-'.($size).' col-md-4 $2$3')", $tag ); //add .tag-size-{nr} class
+    $tagn[] = $tag;
+  }
+  $taglinks = implode('</a>', $tagn);
+return $taglinks;
+}
 
 add_filter ( 'wp_tag_cloud', 'tag_cloud_current_tag_highlight' );
 function tag_cloud_current_tag_highlight( $return ) {
@@ -272,6 +327,19 @@ function create_customers_post_type() {
   register_post_type( 'customers' , $args );
 }
 
+/*
+ *  http://scottbolinger.com/custom-post-types-wp-api-v2/
+ *  http://octagram.dev/wp-json/wp/v2/solutions/2802
+*/
+add_action( 'init', 'wpsd_add_customers_args', 30 );
+function wpsd_add_customers_args() {
+  global $wp_post_types;
+
+  $wp_post_types['customers']->show_in_rest = true;
+  $wp_post_types['customers']->rest_base = 'customers';
+  $wp_post_types['customers']->rest_controller_class = 'WP_REST_Posts_Controller';
+}
+
 // Add news Post Type
 add_action( 'init', 'create_distr_post_type' );
 function create_distr_post_type() {
@@ -333,6 +401,22 @@ function create_doc_post_type() {
     );
   register_post_type( 'doc' , $args );
 }
+
+/*
+ *  http://scottbolinger.com/custom-post-types-wp-api-v2/
+ *  http://octagram.dev/wp-json/wp/v2/solutions/2802
+*/
+add_action( 'init', 'wpsd_add_doc_args', 30 );
+function wpsd_add_doc_args() {
+  global $wp_post_types;
+
+  $wp_post_types['doc']->show_in_rest = true;
+  $wp_post_types['doc']->rest_base = 'doc';
+  $wp_post_types['doc']->rest_controller_class = 'WP_REST_Posts_Controller';
+}
+
+
+
 
 add_filter('excerpt_more', 'new_excerpt_more');
 function new_excerpt_more($more) {
@@ -521,14 +605,14 @@ add_filter( 'pre_site_transient_update_plugins', create_function( '$nop', "retur
 
 // remove wps_admin_bar
 function wps_admin_bar() {
-    global $wp_admin_bar;
-    $wp_admin_bar->remove_menu('wp-logo');
-    $wp_admin_bar->remove_menu('about');
-    $wp_admin_bar->remove_menu('wporg');
-    $wp_admin_bar->remove_menu('documentation');
-    $wp_admin_bar->remove_menu('support-forums');
-    $wp_admin_bar->remove_menu('feedback');
-    $wp_admin_bar->remove_menu('view-site');
+  global $wp_admin_bar;
+  $wp_admin_bar->remove_menu('wp-logo');
+  $wp_admin_bar->remove_menu('about');
+  $wp_admin_bar->remove_menu('wporg');
+  $wp_admin_bar->remove_menu('documentation');
+  $wp_admin_bar->remove_menu('support-forums');
+  $wp_admin_bar->remove_menu('feedback');
+  $wp_admin_bar->remove_menu('view-site');
 }
 add_action( 'wp_before_admin_bar_render', 'wps_admin_bar' );
 
@@ -956,10 +1040,7 @@ case "close":
 ?>
 
 </table><br />
-<?php break;
-
-case "break":
-?>
+<?php break; case "break": ?>
 <tr><td colspan="2" style="border-top:1px solid #C2DCEF;">&nbsp;</td></tr>
 
 <?php break;
@@ -1094,6 +1175,21 @@ function solutions_register() {
   register_post_type( 'solutions' , $args );
 }
 
+/*
+ *  http://scottbolinger.com/custom-post-types-wp-api-v2/
+ *  http://octagram.dev/wp-json/wp/v2/solutions/2802
+*/
+add_action( 'init', 'wpsd_add_solutions_args', 30 );
+function wpsd_add_solutions_args() {
+  global $wp_post_types;
+
+  $wp_post_types['solutions']->show_in_rest = true;
+  $wp_post_types['solutions']->rest_base = 'solutions';
+  $wp_post_types['solutions']->rest_controller_class = 'WP_REST_Posts_Controller';
+}
+
+
+
 
 // Fake pages' permalinks and titles
 $my_fake_pages = array(
@@ -1154,11 +1250,19 @@ function systems_register() {
     'supports' => array('title','editor','thumbnail', 'custom-fields', 'comments')
     );
 
-
   register_post_type( 'systems' , $args );
 }
 
- add_action('init', 'mydiler_register');
+add_action( 'init', 'wpsd_add_systems_args', 30 );
+function wpsd_add_systems_args() {
+  global $wp_post_types;
+
+  $wp_post_types['systems']->show_in_rest = true;
+  $wp_post_types['systems']->rest_base = 'systems';
+  $wp_post_types['systems']->rest_controller_class = 'WP_REST_Posts_Controller';
+}
+
+add_action('init', 'mydiler_register');
    function mydiler_register() {
 
   $labels = array(
@@ -1196,9 +1300,16 @@ function systems_register() {
   register_post_type( 'mydiler' , $args );
 }
 
+add_action( 'init', 'wpsd_add_mydiler_args', 30 );
+function wpsd_add_mydiler_args() {
+  global $wp_post_types;
 
+  $wp_post_types['mydiler']->show_in_rest = true;
+  $wp_post_types['mydiler']->rest_base = 'mydiler';
+  $wp_post_types['mydiler']->rest_controller_class = 'WP_REST_Posts_Controller';
+}
 
- add_action('init', 'register_installpost_type');
+add_action('init', 'register_installpost_type');
    function register_installpost_type() {
 
   $labels = array(
@@ -1232,6 +1343,15 @@ function systems_register() {
     'supports' => array('title','editor')
   );
   register_post_type( 'install' , $args );
+}
+
+add_action( 'init', 'wpsd_add_install_args', 30 );
+function wpsd_add_install_args() {
+  global $wp_post_types;
+
+  $wp_post_types['install']->show_in_rest = true;
+  $wp_post_types['install']->rest_base = 'install';
+  $wp_post_types['install']->rest_controller_class = 'WP_REST_Posts_Controller';
 }
 
 add_filter( 'pre_get_posts', 'wpse28145_add_custom_types' );
@@ -1268,31 +1388,12 @@ function drc_wpcf7_validate_text( $result, $tag ) {
   }
 }
 
-// Fake pages' permalinks and titles
-$my_fake_pages1 = array(
-  'component' => 'component',
-  'document' => 'document',
-  'client' => 'client',
-  'feedbac' => 'feedbac'
-);
-
-add_filter('rewrite_rules_array', 'fsp_insertrules1');
-// Adding fake pages' rewrite rules
-function fsp_insertrules1($rules1) {
-  global $my_fake_pages1;
-  $newrules1 = array();
-  foreach ($my_fake_pages1 as $slug => $title)
-    $newrules1['systems/([^/]+)/' . $slug . '/?$'] = 'index.php?systems=$matches[1]&fpage1=' . $slug;
-  return $newrules1 + $rules1;
-}
 add_filter('query_vars', 'fsp_insertqv1');
 // Tell WordPress to accept our custom query variable
 function fsp_insertqv1($vars) {
   array_push($vars, 'fpage1');
   return $vars;
 }
-
-
 
 $option_posts_per_page = get_option( 'posts_per_page' );
 add_action( 'init', 'my_modify_posts_per_page', 0);
@@ -1390,5 +1491,20 @@ add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
   add_theme_support( 'woocommerce' );
 }
+
+
+add_action( 'woocommerce_archive_description', 'woocommerce_category_image', 2 );
+function woocommerce_category_image() {
+    if ( is_product_category() ){
+      global $wp_query;
+      $cat = $wp_query->get_queried_object();
+      $thumbnail_id = get_woocommerce_term_meta( $cat->term_id, 'thumbnail_id', true );
+      $image = wp_get_attachment_url( $thumbnail_id );
+      if ( $image ) {
+        echo '<img src="' . $image . '" alt="" />';
+    }
+  }
+}
+
 
 ?>

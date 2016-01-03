@@ -1,4 +1,4 @@
-<?php 
+<?php
 /* Template Name: Documentation */
 get_header(); ?>
 <div class="breadcrumbs">
@@ -13,7 +13,7 @@ get_header(); ?>
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Диллер\установщик 3-3') ) { ?><?php }?>
 </div>
 <div id="right-content" class="singlesing">
-<h1><?php the_title(); ?></h1>
+<h1 class="inner-title"><?php the_title(); ?></h1>
 <p><?php the_content('Читать полностью &raquo;'); ?></p>
 </div>
 <div class="clear"></div>

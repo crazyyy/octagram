@@ -9,4 +9,4 @@
       <?php the_title(); ?>
     </span>
   </div><!-- breadcrumbs -->
-</div>
+</div><!-- row -->

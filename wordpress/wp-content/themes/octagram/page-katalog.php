@@ -1,9 +1,9 @@
-<?php 
-/* Template Name: Каталог */
-get_header(); ?>
+<?php /* Template Name: Каталог */ get_header(); ?>
+
+
 <ul id="moments">
 <li class="left-block"><h2><?php _e('Suitable for systems', 'octa'); ?></h2>
-<?php 
+<?php
 $posts = get_field('goodsistemleft');
 if( $posts ): ?>
 <?php foreach( $posts as $p ): // variable must NOT be called $post (IMPORTANT) ?>
@@ -16,7 +16,7 @@ if( $posts ): ?>
 </li>
 
 <li class="middle-block">
-<?php 
+<?php
 $posts = get_field('homestore');
 if( $posts ): ?>
 <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
@@ -33,7 +33,7 @@ if( $posts ): ?>
 
 <li class="right-block">
 <h2><?php _e('Suitable for systems', 'octa'); ?></h2>
-<?php 
+<?php
 $posts = get_field('goodsistemright');
 if( $posts ): ?>
 <?php foreach( $posts as $p ): // variable must NOT be called $post (IMPORTANT) ?>
@@ -48,95 +48,9 @@ if( $posts ): ?>
 <div class="clear"></div>
 
 
-				<div class="tab-menu">
 
-		     		<a href="<?php bloginfo('url'); ?>" title="About company" class="tab-link one active"><?php _e('About company', 'octa'); ?></a>
-		     		<a href="<?php bloginfo('url'); ?>/news" title="NEWS" class="tab-link two"><?php _e('NEWS', 'octa'); ?></a>
-		     		<a href="<?php bloginfo('url'); ?>/product" title="SYSTEMS AND SOLUTIONS" class="tab-link three"><?php _e('SYSTEMS AND SOLUTIONS', 'octa'); ?></a>
+  <?php include(TEMPLATEPATH.'/includes/home-tabcontainer.php'); ?>
 
-			<div class="clear"></div> 
+  <?php include(TEMPLATEPATH.'/includes/page-footer-block.php'); ?>
 
-				<div id="mask">
-<div id="homeinfo">
-			       <div class="tab-one open" style="display: block;">
-					<?php the_field('home'); ?>
-			       </div>
- </div>
-			       <div class="tab-two">
-
-             		<ul id="news">
-             			<li>
-             				<span class="name"><?php _e('Новый офис в Петербурге', 'octa'); ?></span>
-             				<span class="date"><?php _e('14.05.2015', 'octa'); ?></span>
-
-             				<p><?php _e('В июне 1989 года был создан МЦ "Контур".   К сентябрю 1991 года, когда в рамках госзаказа для НПО «Научный центр» была разработана первая адресная панель ОПС «Пост 50» с 50-ми адресами.', 'octa'); ?></p>
-
-             				<a href="" title=""><?php _e('Read more', 'octa'); ?> </a>
-             			</li>
-             			
-             		</ul>
-
-             		<div class="clear"></div>
-
-             		<a href="" title="" class="all-news"><?php _e('All news', 'octa'); ?></a>
-
-             		<div class="clear"></div>
-
-			       </div>
-
-			       <div class="tab-three">
-
-					<ul id="news">
-             			<li>
-             				<b><?php _e('Complete systems', 'octa'); ?></b>
-
-             				<a href="" title="" class="system-link"><?php _e('Комплексные системы безопасности', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Система контроля и управления доступом', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Система охранно пожарной сигнализации', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Управление инженерным оборудованием', 'octa'); ?></a><br />
-
-             				<b><?php _e('Complete solutions', 'octa'); ?></b>
-
-             				<a href="" title="" class="system-link"><?php _e('Система безопасности школы', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Система безопасности в гостиницах', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Системы безопасности банка', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Система платной парковки', 'octa'); ?></a>
-
-             			</li>
-             			<li>
-
-             				<a href="" title="" class="system-link"><?php _e('Системы автоматического пожаротушения', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Системы охранной сигнализации', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Система контроля рабочего времени', 'octa'); ?></a><br /><br />
-
-             				<a href="" title="" class="system-link"><?php _e('Пожарная безопасность школы', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Для депозитарных ячеек', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Медицинский центр', 'octa'); ?></a>
-             				
-             			</li>
-             			<li>
-             				<a href="" title="" class="system-link"><?php _e('Система умный дом', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Система контроля охраны', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Системы видеонаблюдения', 'octa'); ?></a><br /><br />
-
-             				<a href="" title="" class="system-link"><?php _e('Для Автоцентра', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Для склада', 'octa'); ?></a>
-             				<a href="" title="" class="system-link"><?php _e('Для завода', 'octa'); ?></a>           				
-             			</li>
-             		</ul>
-
-             		<div class="clear"></div>
-
-			       </div>
-
-			  </div>
-
-			  </div>
-
-			 <?php
- include(TEMPLATEPATH.'/page-footer-block.php');
-?>
-
-			  </div>
-
- <?php get_footer(); ?>
+<?php get_footer(); ?>

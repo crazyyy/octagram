@@ -1,25 +1,27 @@
 <?php get_header(); ?>
-<div class="breadcrumbs">
-    <?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }?>
-</div>
-<div id="left-menu">
-<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Диллер\установщик 1-3') ) { ?><?php }?>
-<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Диллер\установщик 2-3') ) { ?><?php }?>
-<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Диллер\установщик 3-3') ) { ?><?php }?>
-</div>
+<?php get_template_part('breadcrumbs-bcn'); ?>
+  <div class="row">
+    <?php get_sidebar('page-news'); ?>
 
-<?php if (have_posts()) : ?>
-<?php while (have_posts()) : the_post(); ?>
-<div id="right-content">
-<h1 class="pdf-title"><?php the_title(); ?></h1>
-<?php the_content('Читать полностью &raquo;'); ?>
-<a href="<?php the_field('link', $p->ID); ?>" style="font-size:14px; color: #fff; font-weight: bold; border-radius: 10px; background: #00468c; padding: 5px 20px; text-decoration: none;margin-right:20px;" download><?php _e('Download', 'octa'); ?></a> <a style="font-size:14px; color: #00468c; font-weight: bold; text-decoration: none;" target=_blank href="<?php the_field('link', $p->ID); ?>"><?php _e('Read more', 'octa'); ?></a>
-</div>
-<?php endwhile; else: ?>
-<?php endif; ?>	<div class="clear"></div>
+    <article class="content-container col-md-9">
+
+      <?php if (have_posts()) : ?>
+        <?php while (have_posts()) : the_post(); ?>
+
+        <div id="right-content" class="singlesing clearfix">
+
+          <h1 class="inner-title"><i class="fa fa-file-pdf-o"></i><?php the_title(); ?></h1>
+          <?php the_content('Читать полностью &raquo;'); ?>
+
+          <a href="<?php the_field('link', $p->ID); ?>" class="btn btn-blue"><?php _e('Download', 'octa'); ?></a>
+          <a href="<?php the_field('link', $p->ID); ?>" class="btn btn-transparent" target="_blank"><?php _e('Read more', 'octa'); ?></a>
+
+        </div><!-- singlesing -->
+
+        <?php endwhile; else: ?>
+      <?php endif; ?>
+
+    </article><!-- content-container -->
+
+  </div><!-- row -->
 <?php get_footer(); ?>
-
-

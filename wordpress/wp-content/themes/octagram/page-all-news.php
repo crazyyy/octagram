@@ -1,29 +1,36 @@
-<?php 
-/* Template Name: Все News */
-get_header(); ?>
-<div class="breadcrumbs">
-    <?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }?>
-</div>
-<div id="left-menu">
-<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Диллер\установщик 1-3') ) { ?><?php }?>
-<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Диллер\установщик 2-3') ) { ?><?php }?>
-<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Диллер\установщик 3-3') ) { ?><?php }?>
-</div>
-<div id="right-content" class="singlesing">
-<h1><?php the_title(); ?></h1>
-<?php
-$args = array( 'post_type' => 'news', 'posts_per_page' => 999 ); ?>
-<?php $loop = new WP_Query( $args );
-while ( $loop->have_posts() ) : $loop->the_post(); ?>
-<h2><a style="font-size:19px;color:#383737;text-decoration: none;" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+<?php /* Template Name: Все News */ get_header(); ?>
+<?php get_template_part('breadcrumbs-bcn'); ?>
 
-<span style="font-size:14px;font-weight:bold;color: #383737; "><?php the_author(); ?></span> &bull; <a href="http://www.octagram.ru/all-news" style="font-size:14px;font-weight:bold;color: #24aa98; "><?php _e('News', 'octa'); ?></a> &bull; <time style="font-size:14px;font-weight:bold;color: #b4bbc2; " class="sPost-time" datetime="<?php the_time('d-m-Y') ?>"><?php the_time('d.m.Y'); ?></time><div style="height:15px;"></div>
-<?php echo excerpt(50); ?><br><br>
-<a style="background: #00468c; padding: 5px 15px; font-size: 11px; color: #fff; border-radius: 5px;text-decoration: none;" href="<?php the_permalink() ?>" rel="bookmark"><?php _e('Read more', 'octa'); ?></a><br><br><br>
-<?php endwhile; ?>
-</div> 
-<div class="clear"></div>
+  <div class="row">
+    <?php get_sidebar('page-news'); ?>
+
+    <article class="content-container col-md-9">
+      <div id="right-content" class="singlesing clearfix">
+        <h1 class="inner-title"><?php the_title(); ?></h1>
+
+        <?php $args = array( 'post_type' => 'news', 'posts_per_page' => 999 ); ?>
+        <?php $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+          <div class="category-content-container">
+            <h2 class="category-content-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+
+            <?php get_template_part('content-data'); ?>
+
+            <p><?php echo excerpt(50); ?></p>
+            <a href="<?php the_permalink() ?>" class="read-more" rel="bookmark"><?php _e('Read more', 'octa'); ?></a>
+          </div>
+          <!-- /.category-content-container -->
+        <?php endwhile; ?>
+      </div><!-- singlesing -->
+    </article><!-- content-container -->
+
+  </div><!-- row -->
+
 <?php get_footer(); ?>
+
+
+
+
+
+
+
+

@@ -10,7 +10,7 @@
         <?php while (have_posts()) : the_post(); ?>
 
           <div id="right-content">
-            <h1><?php the_title(); ?></h1>
+            <h1 class="inner-title"><?php the_title(); ?></h1>
             <?php the_content('Читать полностью &raquo;'); ?>
           </div><!-- right-content -->
 

@@ -21,7 +21,7 @@
   <link href="http://www.google-analytics.com/" rel="dns-prefetch">
 
 </head>
-<body>
+<body <?php body_class(); ?>>
 <div class="wrapper">
   <header>
     <div class="inner">

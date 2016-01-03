@@ -1,0 +1,35 @@
+use this gen http://www.objgen.com/json
+
+
+almatyi = Алматы
+belgorod = Белгород
+vinnitsa = Винница
+vladimir = Владимир
+volgograd = Волгоград
+ekaterinburg = Екатеринбург
+ivanovo = Иваново
+irkutsk = Иркутск
+kazan = Казань
+kaliningrad = Калининград
+kemerovo = Кемерово
+kiev = Киев
+krasnoyarsk = Красноярск
+moskva = Москва
+novosibirsk = Новосибирск
+orenburg = Оренбург
+petrozavodsk = Петрозаводск
+petushki = Петушки
+pyatigorsk = Пятигорск
+rostov-na-donu = Ростов-на-Дону
+ryazan = Рязань
+samara = Самара
+sankt-peterburg = Санкт-Петербург
+saratov = Саратов
+tver = Тверь
+tolyatti = Тольятти
+tula = Тула
+ulyanovsk = Ульяновск
+ufa = Уфа
+habarovsk = Хабаровск
+himki = Химки
+chelyabinsk = Челябинск

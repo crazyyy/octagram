@@ -1,0 +1,1 @@
+$(document).ready(function(){$.get(currDomain+"/wp-json/wp/v2/systems/"+currID,function(e){tabRenderAbout(e),tabRenderDoc(e),tabRenderCustomers(e),tabRenderComments(e)})});

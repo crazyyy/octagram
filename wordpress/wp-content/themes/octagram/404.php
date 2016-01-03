@@ -1,9 +1,24 @@
-<?php 
-get_header(); ?>
-<ul id="moments">
-<div style="margin: 100px 0 200px 0;color: #00468c;font-size: 24px; text-align: center;font-weight: bold; "><?php _e('This page does not exist', 'octa'); ?><br>
-<span style="font-size: 240px;line-height: 240px;">404</span><br>
-<?php _e('Try to return to <a href="/">HOME</a> page', 'octa'); ?></div>
-</ul>
-<div class="clear"></div>
+<?php get_header(); ?>
+
+  <div class="row">
+    <?php get_sidebar('page-news'); ?>
+
+    <article class="content-container col-md-9">
+      <div id="right-content" class="singlesing clearfix">
+        <h1 class="cat-title inner-title"><?php the_category(', '); ?></h1>
+
+          <div class="category-content-container">
+            <h1 class="category-content-title"><?php _e('This page does not exist', 'octa'); ?> </h1>
+
+            <h2><?php _e('Try to return to <a href="/">HOME</a> page', 'octa'); ?></h2>
+
+          </div>
+          <!-- /.category-content-container -->
+
+      </div><!-- singlesing -->
+    </article><!-- content-container -->
+
+  </div><!-- row -->
+
 <?php get_footer(); ?>
+

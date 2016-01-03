@@ -1,79 +1,66 @@
 <?php get_header(); ?>
-<div class="breadcrumbs">
-<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Octagram." href="http://www.octagram.ru" class="home"><?php _e('Home', 'octa'); ?></a></span> &gt; 
-<span typeof="v:Breadcrumb"><?php the_title(); ?></span></div>
-<div id="left-menu"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Диллер\установщик 1-3') ) { ?><?php }?></div>
+<?php get_template_part('breadcrumbs'); ?>
 
+  <div class="row">
 
-<div id="right-content">
-<h1 STYLE="font-size: 24px; margin-top: 10px; "><?php _e('OCTAGRAM BESIDE', 'octa'); ?></h1>
-<h2><?php $oct_k11 = get_option('oct_k11'); echo stripslashes($oct_k11); ?></h2>
-<p><?php $oct_k12 = get_option('oct_k12'); echo stripslashes($oct_k12); ?>
-<?php if ($post->post_type == "install"  )   { ?>
+    <?php get_sidebar('archive-mydiler'); ?>
 
-<div style="width: 138px; float: left; display:block;height: 50px; line-height: 50px; text-align: center; background: #00468c; -moz-border-radius-topleft: 10px;-webkit-border-top-left-radius: 10px; border-top-left-radius: 10px;"><a style="color: #fff; font-size:16px; font-weight:bold;text-decoration: none;" href="http://www.octagram.ru/install/"><?php _e('Installer', 'octa'); ?></a></div>
-<div style="width: 132px;  float: left; display:block;height: 50px; line-height: 50px; text-align: center; background: #f2f5f8; -moz-border-radius-topright: 10px;-webkit-border-top-right-radius: 10px;
-border-top-right-radius: 10px;"><a style="color: #393635; font-size:16px; font-weight:bold;text-decoration: none;" href="http://www.octagram.ru/mydiler/"><?php _e('Dealers', 'octa'); ?></a></div>
+    <article class="content-container col-md-9">
+      <div id="right-content">
 
-<?php } elseif ( $post->post_type == "mydiler"  )   { ?>
-<div style="width: 138px; float: left; display:block;height: 50px; line-height: 50px; text-align: center; background: #f2f5f8; -moz-border-radius-topleft: 10px;-webkit-border-top-left-radius: 10px; border-top-left-radius: 10px;"><a style="color:#393635 ; font-size:16px; font-weight:bold;text-decoration: none;" href="http://www.octagram.ru/install/"><?php _e('Installer', 'octa'); ?></a></div>
-<div style="width: 132px;  float: left; display:block;height: 50px; line-height: 50px; text-align: center; background: #00468c; -moz-border-radius-topright: 10px;-webkit-border-top-right-radius: 10px;
-border-top-right-radius: 10px;"><a style="color:#fff; font-size:16px; font-weight:bold;text-decoration: none;" href="http://www.octagram.ru/mydiler/"><?php _e('Dealers', 'octa'); ?></a></div>
-<?php }  ?>
+        <h1 class="diler-title"><?php _e('OCTAGRAM BESIDE', 'octa'); ?></h1>
+        <h2 class="diler-sub-title"><?php $oct_k11 = get_option('oct_k11'); echo stripslashes($oct_k11); ?></h2>
+        <p><?php $oct_k12 = get_option('oct_k12'); echo stripslashes($oct_k12); ?></p>
 
- 
+        <div class="row content-tab-header">
+          <div class="col-md-3 content-tab-left <?php if ($post->post_type == "install" ) { echo 'content-tab-active'; } ?>">
+            <a href="<?php bloginfo('url'); ?>/install/">
+              <?php _e('Installer', 'octa'); ?>
+            </a>
+          </div><!-- content-tab-left -->
+          <div class="col-md-3 content-tab-right <?php if ($post->post_type == "mydiler" ) { echo 'content-tab-active'; } ?>">
+            <a href="<?php bloginfo('url'); ?>/mydiler/"><?php _e('Dealers', 'octa'); ?></a>
+          </div><!-- content-tab-right -->
+        </div><!-- content-tab-header -->
+        <div class="row content-tab-container">
+          <h6 class="col-md-12"><?php _e('Cities', 'octa'); ?></h6>
+          <div class="content-tab-cloud col-md-12">
+            <?php wp_tag_cloud( 'smallest=16&largest=16&unit=px' ); ?>
+          </div><!-- /.content-tab-cloud -->
+        </div><!-- /.row content-tab-container -->
 
-<div style="background: #f2f5f8;clear:both;display: block;float: left;width: 700px;padding: 20px 0;" >
-<span style="padding-left: 30px; color: #b4bbc2; font-size: 14px; "><?php _e('Cities', 'octa'); ?></span><br><br>
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<div id="taggest">
-	<?php wp_tag_cloud( 'smallest=16&largest=16' ); ?>
-</div>
+        <div class="row dealer-loop">
 
-</div><div class="clear"><br><br></div>
+          <div class="col-md-2 dealer-img">
+            <a href="<?php the_permalink();?>">
+              <img style="border-radius: 10px;" src="<?php the_field('фотодилера'); ?>" alt="<?php the_title(); ?>" />
+            </a>
+          </div><!-- /.col-md-2 dealer-img -->
 
+          <div class="col-md-8 dealer-cont">
+            <h3>
+              <a href="<?php the_permalink();?>"><?php  the_title(); ?></a>
+            </h3>
+            <p class="dealer-adress"><?php the_field('адрес'); ?></p>
+            <a href="tel:<?php the_field('телефон'); ?>" class="dealer-phone"><?php the_field('телефон'); ?></a>
+            <?php include(TEMPLATEPATH.'/includes/include-rating.php'); ?>
+          </div><!-- /.col-md-8 dealer-cont -->
 
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<div style="padding:20px;display:block;float:left;"><img style="border-radius: 10px;" src="<?php the_field('фотодилера'); ?>" alt="<?php the_title(); ?>"  width="90" height="90" /></div>
+          <div class="col-md-2 dealer-more">
+            <a href="<?php the_permalink();?>"><?php _e('Read more', 'octa'); ?></a>
+          </div><!-- /.col-md-2 dealer-more -->
 
-<div style="width: 560px; height: 110px; display:block;float:left;padding-top:10px;">
-<a style="color: #383737; font-size: 16px; font-weight: bold; text-decoration:none;" href="<?php the_permalink();?>"><?php  the_title(); ?></a><br>
-<span style="color: #b4bbc2; font-size: 14px; "><?php the_field('адрес'); ?></span><br><span style="color: #b4bbc2; font-size: 14px; "><?php the_field('телефон'); ?></span><br>
-<?php 
+        </div><!-- /.row dealer-loop -->
 
-$value = get_field( "rating" );
-if( $value == 1 )
-{ ?><img src="http://www.octagram.ru/wp-content/uploads/2014/10/1.png" style="margin-left:-10px;" width="101" height="26" border="0" alt=""><?php 
+        <?php endwhile; endif;  ?>
 
-}
-elseif( $value == 2 )
-{ ?><img src="http://www.octagram.ru/wp-content/uploads/2014/10/2.png" style="margin-left:-10px;" width="101" height="26" border="0" alt=""><?php 
+      </div><!-- right-content -->
 
-}
-elseif( $value == 3 )
-{ ?><img src="http://www.octagram.ru/wp-content/uploads/2014/10/3.png" style="margin-left:-10px;" width="101" height="26" border="0" alt=""><?php 
+      <?php get_template_part('pagination'); ?>
 
-}
-elseif( $value == 4 )
-{ ?><img src="http://www.octagram.ru/wp-content/uploads/2014/10/4.png" style="margin-left:-10px;" width="101" height="26" border="0" alt=""><?php 
+    </article><!-- content-container -->
+  </div><!-- row -->
 
-}
-elseif( $value == 5 )
-{ ?><img src="http://www.octagram.ru/wp-content/uploads/2014/10/5.png" style="margin-left:-10px;" width="101" height="26" border="0" alt=""><?php 
-
-}
-else
-{ ?> <?php 
-
-}
- ?><br>
-<a href="<?php the_permalink();?>" title="Read more" style="color:#00468c; font-size: 10px;text-transform: uppercase;text-decoration: none;float: right; text-align: right; display: block;"><?php _e('Read more', 'octa'); ?></a></div>
-<div style="clear:both; height:1px; border-bottom: 1px solid #f4f4f4"></div>	
-<?php endwhile; else: ?>
-<p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?>
-<p><?php posts_nav_link(' &#8212; ', __('&laquo; Previous Page'), __('Next Page &raquo;')); ?></p>
-
-</div>
-
-<div class="clear"></div>
 <?php get_footer(); ?>

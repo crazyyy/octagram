@@ -14,35 +14,35 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header( 'shop' ); ?>
- <?php 
-  // Ïîëó÷àåì òåêóùèå êóðñû âàëþò â rss-ôîðìàòå ñ ñàéòà www.cbr.ru 
-  $content = get_content(); 
-  // Ðàçáèðàåì ñîäåðæèìîå, ïðè ïîìîùè ðåãóëÿðíûõ âûðàæåíèé 
-  $pattern = "#<Valute ID=\"([^\"]+)[^>]+>[^>]+>([^<]+)[^>]+>[^>]+>[^>]+>[^>]+>[^>]+>[^>]+>([^<]+)[^>]+>[^>]+>([^<]+)#i"; 
-  preg_match_all($pattern, $content, $out, PREG_SET_ORDER); 
-  $dollar = ""; 
-  foreach($out as $cur) 
-  { 
-    if($cur[2] == 840) $dollar = str_replace(",",".",$cur[4]); 
-  } 
-  function get_content() 
-  { 
+ <?php
+  // ÃÃ®Ã«Ã³Ã·Ã Ã¥Ã¬ Ã²Ã¥ÃªÃ³Ã¹Ã¨Ã¥ ÃªÃ³Ã°Ã±Ã» Ã¢Ã Ã«Ã¾Ã² Ã¢ rss-Ã´Ã®Ã°Ã¬Ã Ã²Ã¥ Ã± Ã±Ã Ã©Ã²Ã  www.cbr.ru
+  $content = get_content();
+  // ÃÃ Ã§Ã¡Ã¨Ã°Ã Ã¥Ã¬ Ã±Ã®Ã¤Ã¥Ã°Ã¦Ã¨Ã¬Ã®Ã¥, Ã¯Ã°Ã¨ Ã¯Ã®Ã¬Ã®Ã¹Ã¨ Ã°Ã¥Ã£Ã³Ã«Ã¿Ã°Ã­Ã»Ãµ Ã¢Ã»Ã°Ã Ã¦Ã¥Ã­Ã¨Ã©
+  $pattern = "#<Valute ID=\"([^\"]+)[^>]+>[^>]+>([^<]+)[^>]+>[^>]+>[^>]+>[^>]+>[^>]+>[^>]+>([^<]+)[^>]+>[^>]+>([^<]+)#i";
+  preg_match_all($pattern, $content, $out, PREG_SET_ORDER);
+  $dollar = "";
+  foreach($out as $cur)
+  {
+    if($cur[2] == 840) $dollar = str_replace(",",".",$cur[4]);
+  }
+  function get_content()
+  {
     $last = filemtime("cbrrates");
     if (abs(time() - $last) > 3600)
     {
-      // Ôîðìèðóåì ñåãîäíÿøíþþ äàòó 
-      $date = date("d/m/Y"); 
-      // Ôîðìèðóåì ññûëêó 
-      $link = "http://www.cbr.ru/scripts/XML_daily.asp?date_req=$date"; 
-      // Çàãðóæàåì HTML-ñòðàíèöó 
-      $fd = fopen($link, "r");    
-      $text=""; 
+      // Ã”Ã®Ã°Ã¬Ã¨Ã°Ã³Ã¥Ã¬ Ã±Ã¥Ã£Ã®Ã¤Ã­Ã¿Ã¸Ã­Ã¾Ã¾ Ã¤Ã Ã²Ã³
+      $date = date("d/m/Y");
+      // Ã”Ã®Ã°Ã¬Ã¨Ã°Ã³Ã¥Ã¬ Ã±Ã±Ã»Ã«ÃªÃ³
+      $link = "http://www.cbr.ru/scripts/XML_daily.asp?date_req=$date";
+      // Ã‡Ã Ã£Ã°Ã³Ã¦Ã Ã¥Ã¬ HTML-Ã±Ã²Ã°Ã Ã­Ã¨Ã¶Ã³
+      $fd = fopen($link, "r");
+      $text="";
       if ($fd)
-      { 
-        // ×òåíèå ñîäåðæèìîãî ôàéëà â ïåðåìåííóþ $text 
-        while (!feof ($fd)) $text .= fgets($fd, 4096); 
-      } 
-      // Çàêðûòü îòêðûòûé ôàéëîâûé äåñêðèïòîð 
+      {
+        // Ã—Ã²Ã¥Ã­Ã¨Ã¥ Ã±Ã®Ã¤Ã¥Ã°Ã¦Ã¨Ã¬Ã®Ã£Ã® Ã´Ã Ã©Ã«Ã  Ã¢ Ã¯Ã¥Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã³Ã¾ $text
+        while (!feof ($fd)) $text .= fgets($fd, 4096);
+      }
+      // Ã‡Ã ÃªÃ°Ã»Ã²Ã¼ Ã®Ã²ÃªÃ°Ã»Ã²Ã»Ã© Ã´Ã Ã©Ã«Ã®Ã¢Ã»Ã© Ã¤Ã¥Ã±ÃªÃ°Ã¨Ã¯Ã²Ã®Ã°
       fclose ($fd);
       if ($text != "")
       {
@@ -59,15 +59,15 @@ get_header( 'shop' ); ?>
     }
     return $text;
   }  ?>
-<div id="catalog"> 
+<div id="catalog">
 
 <div class="tab-menu1 five-links">
-<?php wp_nav_menu(array( 'menu' => 'Êàòàëîã' )); ?>
+<?php wp_nav_menu(array( 'menu' => 'ÃŠÃ Ã²Ã Ã«Ã®Ã£' )); ?>
 <div class="clear"></div>
 
 <div id="mask1">
 <div class="tab-one open" style="display: block;">
-<?php 
+<?php
 global $wp_query;
 // get the query object
 $cat_obj = $wp_query->get_queried_object();
@@ -80,10 +80,10 @@ if($cat_obj)    {
 if ($end !== 0 && $end !== null)  {
 ?>
 <h1 style="width:46%;height: 40px;"><?php echo $category_name; ?></h1>
-<?php } else {  ?> 
+<?php } else {  ?>
        <h1 style="width:46%;height: 40px;"><?php _e('Product catalog Octagram', 'octa'); ?></h1>
   <?php     }
-  ?> 
+  ?>
 
 
 <a href="http://www.octagram.ru/pravila-otgruzki/" title="Terms of shipment" id="rules"><?php _e('Terms of shipment', 'octa'); ?></a>
@@ -98,7 +98,7 @@ if ($end !== 0 && $end !== null)  {
 <div class="fifth-td"><?php _e('Order', 'octa'); ?></div>
 <div class="sixth-td"><?php _e('Documentation', 'octa'); ?></div>
 </div>
-<div class="t-body"><hr /></div><?php 
+<div class="t-body"><hr /></div><?php
 if ( is_shop() || is_product_category() || is_product_tag() ) { // Only run on shop archive pages, not single products or other pages
 	// Products per page
 	$per_page = 5;
@@ -143,20 +143,24 @@ if ( is_shop() || is_product_category() || is_product_tag() ) { // Only run on s
   if ($dollar != "") {
   $A=get_field('price');
   $C=$A*$dollar;
-   echo number_format($C,0, '', ' ').' ðóá';
+   echo number_format($C,0, '', ' ').' Ã°Ã³Ã¡';
   }
   else {
-  echo 'íåò äàííûõ';
+  echo 'Ã­Ã¥Ã² Ã¤Ã Ã­Ã­Ã»Ãµ';
   }
 ?></span>
-</div> 
+</div>
 
 <div class="fifth-td">
 <a href="<?php the_permalink();?>" title="<?php _e('Order', 'octa'); ?>" class="order-btn blue"><?php _e('Order', 'octa'); ?></a>
-<a href="#answer" title="<?php _e('Consultc', 'octa'); ?>" onclick="getElementById('wpcf7-f1034-o2').style.display = 'block'; getElementById('answer').style.display = 'block'"><?php _e('Consultc', 'octa'); ?></a> </div>
+
+      <a href="#" title="<?php $oct_k5 = get_option('oct_k5'); echo stripslashes($oct_k5); ?>" class="btn btn-gray btn-two-blocks btn-question">
+        <i class="fa fa-phone-square"></i>
+        <?php $oct_k5 = get_option('oct_k5'); echo stripslashes($oct_k5); ?>
+      </a> </div>
 <div class="sixth-td">
 <?php  $proddoc = get_field('proddoc');
-if( $proddoc ): 
+if( $proddoc ):
 foreach( $proddoc as $prod ): ?>
 <a href="<?php the_field('link', $prod->ID); ?>" title="<?php _e('Download documentation', 'octa'); ?>" class="get-doc" download><?php _e('Download documentation', 'octa'); ?></a>
 <?php endforeach; endif; ?>
@@ -164,7 +168,7 @@ foreach( $proddoc as $prod ): ?>
 <?php endwhile;  ?>
 		</div></div>
 </div></div><div class="clear"><div id="pagination"><?php wp_pagenavi(array( 'query' => $products )); ?></div></div></div>
-<?php 
+<?php
 		wp_reset_postdata();
 	endif;
 } else { // If not on archive page (cart, checkout, etc), do normal operations
